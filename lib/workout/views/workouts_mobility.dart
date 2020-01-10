@@ -726,7 +726,7 @@ class _WorkoutsMobilityState extends State<_WorkoutsMobility> {
         returnObject["getMobilityWorkfitWorkouts"] = (BuildContext context, Map params) =>
           store.dispatch(getMobilityWorkfitWorkouts(context, params));
         
-        returnObject["user"] = store.state.homeState.user;
+        returnObject["user"] = store.state.homeFitHomeState.user;
         returnObject["mobilityResilienceWorkouts"] = store.state.homeFitWorkoutState.mobilityResilienceWorkouts;
         returnObject["mobilityResiliencePaginateInfo"] = store.state.homeFitWorkoutState.mobilityResiliencePaginateInfo;
         returnObject["mobilityFluidityWorkouts"] = store.state.homeFitWorkoutState.mobilityFluidityWorkouts;

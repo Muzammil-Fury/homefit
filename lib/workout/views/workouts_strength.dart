@@ -808,7 +808,7 @@ class _WorkoutsStrengthState extends State<_WorkoutsStrength> {
         returnObject["getStrengthWorkfitWorkouts"] = (BuildContext context, Map params) =>
           store.dispatch(getStrengthWorkfitWorkouts(context, params));
         
-        returnObject["user"] = store.state.homeState.user;
+        returnObject["user"] = store.state.homeFitHomeState.user;
         returnObject["strengthPushPullWorkouts"] = store.state.homeFitWorkoutState.strengthPushPullWorkouts;
         returnObject["strengthLiftingCarryingWorkouts"] = store.state.homeFitWorkoutState.strengthLiftingCarryingWorkouts;
         returnObject["strengthGrand2StandWorkouts"] = store.state.homeFitWorkoutState.strengthGrand2StandWorkouts;

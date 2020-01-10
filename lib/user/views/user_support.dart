@@ -78,7 +78,7 @@ class UserSupportState extends State<_UserSupport> {
       },
       converter: (Store<AppState> store) {
         Map<String, dynamic> returnObject = new Map();
-        returnObject["user"] = store.state.homeState.user;
+        returnObject["user"] = store.state.homeFitHomeState.user;
         return returnObject;
       },
       builder: (BuildContext context, Map stateObject) {  

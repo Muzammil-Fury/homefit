@@ -2,21 +2,21 @@ import 'package:redux/redux.dart';
 import 'package:homefit/home/home_state.dart';
 import 'package:homefit/home/home_actions.dart';
 
-Reducer<HomeState> homeReducer = combineReducers([
-  new TypedReducer<HomeState, VerifyEmailSuccessActionCreator>(_verifyEmailSuccessActionCreator),
-  new TypedReducer<HomeState, ClearVerifyEmailActionCreator>(_clearVerifyEmailActionCreator),
-  new TypedReducer<HomeState, DashboardDetailsSuccessActionCreator>(_dashboardDetailsSuccessActionCreator),
-  new TypedReducer<HomeState, DashboardDetailsMovementMeterSuccessActionCreator>(_dashboardDetailsMovementMeterSuccessActionCreator),  
-  new TypedReducer<HomeState, VerifyUserActionCreator>(_verifyUserActionCreator),
-  new TypedReducer<HomeState, FamilyPlanMemberListSuccessActionCreator>(_familyPlanMemberListActionCreator),
-  new TypedReducer<HomeState, UpdateUserMovementMeterSettingsActionCreator>(_updateUserMovementMeterSettingsActionCreator),
-  new TypedReducer<HomeState, DashboardNewWorkoutsSuccess>(_dashboardNewWorkoutsSuccess),
-  new TypedReducer<HomeState, DashboardFavoriteWorkoutsSuccess>(_dashboardFavoriteWorkoutsSuccess),
-  new TypedReducer<HomeState, HomeCleanup>(_homeCleanup),
+Reducer<HomeFitHomeState> homeFitHomeReducer = combineReducers([      // Done
+  new TypedReducer<HomeFitHomeState, VerifyEmailSuccessActionCreator>(_verifyEmailSuccessActionCreator),
+  new TypedReducer<HomeFitHomeState, ClearVerifyEmailActionCreator>(_clearVerifyEmailActionCreator),
+  new TypedReducer<HomeFitHomeState, DashboardDetailsSuccessActionCreator>(_dashboardDetailsSuccessActionCreator),
+  new TypedReducer<HomeFitHomeState, DashboardDetailsMovementMeterSuccessActionCreator>(_dashboardDetailsMovementMeterSuccessActionCreator),
+  new TypedReducer<HomeFitHomeState, VerifyUserActionCreator>(_verifyUserActionCreator),
+  new TypedReducer<HomeFitHomeState, FamilyPlanMemberListSuccessActionCreator>(_familyPlanMemberListActionCreator),
+  new TypedReducer<HomeFitHomeState, UpdateUserMovementMeterSettingsActionCreator>(_updateUserMovementMeterSettingsActionCreator),
+  new TypedReducer<HomeFitHomeState, DashboardNewWorkoutsSuccess>(_dashboardNewWorkoutsSuccess),
+  new TypedReducer<HomeFitHomeState, DashboardFavoriteWorkoutsSuccess>(_dashboardFavoriteWorkoutsSuccess),
+  new TypedReducer<HomeFitHomeState, HomeCleanup>(_homeCleanup),
 ]);
 
-HomeState _getCopy(HomeState state) {
-  return new HomeState().copyWith(    
+HomeFitHomeState _getCopy(HomeFitHomeState state) {
+  return new HomeFitHomeState().copyWith(
     welcomeVideoId: state.welcomeVideoId,
     welcomeVideoURL: state.welcomeVideoURL,
     welcomeVideoThumbnailURL: state.welcomeVideoThumbnailURL,
@@ -35,20 +35,20 @@ HomeState _getCopy(HomeState state) {
 
 
 
-HomeState _clearVerifyEmailActionCreator(HomeState state, ClearVerifyEmailActionCreator action) {  
+HomeFitHomeState _clearVerifyEmailActionCreator(HomeFitHomeState state, ClearVerifyEmailActionCreator action) {
   return _getCopy(state).copyWith(
     userEmailExists: -1
   );
 }
 
-HomeState _verifyEmailSuccessActionCreator(HomeState state, VerifyEmailSuccessActionCreator action) {  
+HomeFitHomeState _verifyEmailSuccessActionCreator(HomeFitHomeState state, VerifyEmailSuccessActionCreator action) {
   return _getCopy(state).copyWith(
     userEmailExists: action.emailExists
   );
 }
 
 
-HomeState _dashboardDetailsSuccessActionCreator(HomeState state, DashboardDetailsSuccessActionCreator action) {
+HomeFitHomeState _dashboardDetailsSuccessActionCreator(HomeFitHomeState state, DashboardDetailsSuccessActionCreator action) {
   List<Map> _availableSports = action.availableSports;
   Map<String, dynamic> emptySports = new Map<String, dynamic>();
   emptySports["id"] = "0";
@@ -62,13 +62,13 @@ HomeState _dashboardDetailsSuccessActionCreator(HomeState state, DashboardDetail
   );
 }
 
-HomeState _dashboardDetailsMovementMeterSuccessActionCreator(HomeState state, DashboardDetailsMovementMeterSuccessActionCreator action) {
+HomeFitHomeState _dashboardDetailsMovementMeterSuccessActionCreator(HomeFitHomeState state, DashboardDetailsMovementMeterSuccessActionCreator action) {
   return _getCopy(state).copyWith(
     currentWeekMovementPoints: action.currentWeekMovementMeter
   );
 }
 
-HomeState _verifyUserActionCreator(HomeState state, VerifyUserActionCreator action) {
+HomeFitHomeState _verifyUserActionCreator(HomeFitHomeState state, VerifyUserActionCreator action) {
   return _getCopy(state).copyWith(
     user: action.user,
     movementMeterConfiguration: action.user["movement_meter_configuration"],
@@ -76,25 +76,25 @@ HomeState _verifyUserActionCreator(HomeState state, VerifyUserActionCreator acti
   );
 }
 
-HomeState _familyPlanMemberListActionCreator(HomeState state, FamilyPlanMemberListSuccessActionCreator action) {
+HomeFitHomeState _familyPlanMemberListActionCreator(HomeFitHomeState state, FamilyPlanMemberListSuccessActionCreator action) {
   return _getCopy(state).copyWith(
     familyPlanMemberList: action.familyPlanMemberList
   );
 }
 
-HomeState _updateUserMovementMeterSettingsActionCreator(HomeState state, UpdateUserMovementMeterSettingsActionCreator action) {
+HomeFitHomeState _updateUserMovementMeterSettingsActionCreator(HomeFitHomeState state, UpdateUserMovementMeterSettingsActionCreator action) {
   return _getCopy(state).copyWith(
     movementMeterConfiguration: action.movementMeterConfiguration
   );
 }
 
-HomeState _dashboardNewWorkoutsSuccess(HomeState state, DashboardNewWorkoutsSuccess action) {
+HomeFitHomeState _dashboardNewWorkoutsSuccess(HomeFitHomeState state, DashboardNewWorkoutsSuccess action) {
   return _getCopy(state).copyWith(
     newWorkouts: action.newWorkouts
   );
 }
 
-HomeState _dashboardFavoriteWorkoutsSuccess(HomeState state, DashboardFavoriteWorkoutsSuccess action) {
+HomeFitHomeState _dashboardFavoriteWorkoutsSuccess(HomeFitHomeState state, DashboardFavoriteWorkoutsSuccess action) {
   return _getCopy(state).copyWith(
     favoriteWorkouts: action.favoriteWorkouts,
     favoriteWorkoutsPaginateInfo: action.favoriteWorkoutsPaginateInfo,
@@ -102,7 +102,7 @@ HomeState _dashboardFavoriteWorkoutsSuccess(HomeState state, DashboardFavoriteWo
 }
 
 
-HomeState _homeCleanup(HomeState state, HomeCleanup action) {
+HomeFitHomeState _homeCleanup(HomeFitHomeState state, HomeCleanup action) {
   return _getCopy(state).copyWith(
     welcomeVideoId: null,
     welcomeVideoURL: null,

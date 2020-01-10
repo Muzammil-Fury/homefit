@@ -1581,7 +1581,7 @@ class _WorkoutFilterState extends State<_WorkoutFilter> {
         returnObject["workoutDuration"] = store.state.homeFitWorkoutState.workoutDuration;
         returnObject["workoutFitnessLevel"] = store.state.homeFitWorkoutState.workoutFitnessLevel;
         returnObject["workoutSports"] = store.state.homeFitWorkoutState.workoutSports;
-        returnObject["availableSports"] = store.state.homeState.availableSports;        
+        returnObject["availableSports"] = store.state.homeFitHomeState.availableSports;
         returnObject["favoriteEnabled"] = store.state.homeFitWorkoutState.favoriteEnabled;
         return returnObject;
       },

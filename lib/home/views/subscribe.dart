@@ -580,7 +580,7 @@ class _SubscribeState extends State<_Subscribe> {
       },
       converter: (Store<AppState> store) {
         Map<String, dynamic> returnObject = new Map();
-        returnObject["user"] = store.state.homeState.user;
+        returnObject["user"] = store.state.homeFitHomeState.user;
         returnObject["savePlanAndTransactionReceipt"] = (BuildContext context, Map params) =>
           store.dispatch(savePlanAndTransactionReceipt(context, params));  
         returnObject["subscribeStripePayment"] = (BuildContext context, Map params) =>
