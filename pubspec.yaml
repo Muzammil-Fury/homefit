@@ -1,0 +1,99 @@
+name: homefit
+description: DHF HomeFit
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 3.2+3
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  redux: ^3.0.0
+  flutter_redux: ^0.5.2
+  redux_logging: ^0.3.0
+  redux_thunk: ^0.2.1
+  redux_persist_flutter: ^0.8.1 
+  redux_persist: ^0.8.0
+  shared_preferences: ^0.5.3+1
+  meta: ^1.1.6
+  http: ^0.12.0+1
+  video_player: ^0.10.1+6
+  chewie: ^0.9.7
+  progress_hud: ^1.1.0
+  intl: ^0.15.7
+  path: any
+  flutter_inapp_purchase: ^0.9.0
+  url_launcher: ^5.0.1
+  cached_network_image: ^0.8.0
+  charts_flutter: ^0.6.0
+  flutter_crashlytics: ^1.0.0 
+  firebase_messaging: ^4.0.0+1
+  fluttertoast: ^3.0.1
+  device_info: ^0.4.0+2
+  stripe_payment: 0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/background.png
+    - assets/images/dla.png
+    - assets/images/sports.png
+    - assets/images/mobility.png
+    - assets/images/metabolic.png
+    - assets/images/strength.png
+    - assets/images/power.png
+    - assets/images/subscribe.png
+    - assets/images/individual_plan.jpg
+    - assets/images/family_plan.jpg
+    - assets/images/play.png
+    - assets/images/filter_movement_meter.png
+    - assets/images/filter_equipment.png
+    - assets/images/filter_duration.png
+    - assets/images/filter_type.png
+    - assets/images/filter_level.png
+    - assets/images/filter_sports.png
+    - assets/images/equipment_bodyweight.jpeg
+    - assets/images/equipment_dumbbell.jpg
+    - assets/images/equipment_bands.jpeg
+    - assets/images/equipment_foamroller.png
+    - assets/images/equipment_kettlebells.jpeg
+    - assets/images/equipment_powerplate.jpg
+    - assets/images/equipment_bosu.jpeg
+    - assets/images/equipment_rockblade.jpeg
+    - assets/images/type_traditional.png
+    - assets/images/type_functional.png
+    - assets/images/check.png
+    - assets/images/filter_search.png
+    - assets/images/homefit_logo.png
+    - assets/images/splash_image_iphone.png
+    - assets/images/splash_image_ipad.png
+    
+
+  fonts:
+    - family: gomotive
+      fonts:
+        - asset: assets/fonts/gomotive.ttf

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/muz/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/45457308e5f704487d92d82bd929f39a/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/muz/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/45457308e5f704487d92d82bd929f39a/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/muz/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/45457308e5f704487d92d82bd929f39a/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/muz/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/45457308e5f704487d92d82bd929f39a/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

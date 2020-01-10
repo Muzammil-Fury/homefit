@@ -1,0 +1,512 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:1:1-43:12
+INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:1:1-43:12
+INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:1:1-43:12
+INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:1:1-43:12
+MERGED from [:fluttertoast] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\fluttertoast\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:video_player] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\video_player\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:device_info] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\device_info\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\sqflite\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_messaging] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:2:1-20:12
+MERGED from [:url_launcher] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:2:1-14:12
+MERGED from [:stripe_payment] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:2:1-14:12
+MERGED from [:shared_preferences] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\shared_preferences\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_macos] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\shared_preferences_macos\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\path_provider\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_crashlytics] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\flutter_crashlytics\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
+MERGED from [:flutter_inapp_purchase] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\flutter_inapp_purchase\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_macos] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\url_launcher_macos\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_web] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\url_launcher_web\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:screen] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\screen\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\multidex-2.0.0.aar\e7968ccc68e936fbf3b05d3906851b7d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.6] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-hls-2.9.6.aar\f1372577d9b2018343001ac5fb72a8a4\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.6] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-dash-2.9.6.aar\b78a6356d78bee7a5fc5cf978fee0c1e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-smoothstreaming-2.9.6.aar\5c75d94601772b6f6de136014e94360e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-core-2.9.6.aar\b58aa3e3c76ee8485aa26bf996e54dd3\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.3.3.aar\d1e8ce758cc1e0675593658ccf3a78e9\AndroidManifest.xml:17:1-37:12
+MERGED from [com.stripe:stripe-android:6.1.2] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-stripe-android-6.1.2.aar\c0b0e2e9d4e763068e7ee389a2989cf9\AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.billingclient:billing:1.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-billing-1.1.aar\406c9e9487fe3a68ef9a2de6f532f71d\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\c07a4154fdcd81c20f96ce1d8d164f21\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\6ca6f292282e3279a4d9e4cae95607e1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\a4ef2ee52e3fd0615a97aa4b7a5d2197\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-interop-16.0.1.aar\f9f57d29e5240847046e6d91b9d8188b\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f2aff3d7aa50e5e74cc613c16f658425\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\51439ecd171077fcc12b17176430f9ea\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-17.0.1.aar\bf1b2faf8904381073900344acb55525\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\5791383891f6b557df8e5842e96dfe34\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\44060c68276551470eb8c3b082191b7b\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\ded7db876831d74a2e80f395c2766745\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\263812be5bb94a3228296c3c889cc3de\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\e294281be82aa4bdf86251cfe0b4b1e1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\d40267d0bb8893ef610b541e808957be\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\d7c67f1a72221f2c1c1f38543a5c31cb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\0a7bf2e3e182d4235984316eb245c63c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\77482bf380672f60d264977412f747c0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\5bb7bf6790de0e745d9914fa37f1e754\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\transition-1.0.0.aar\f00c49c5a67532fea9efaad6231628da\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\f227fdda475c5bbaa8eb0177498e3980\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\c1625fe18b05fe809119c238b95ca3c7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\29f83ab3f4cd567d9b4f00accf89153a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\056641b520be825f3d53e6800cdb16c3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\6787fb0ee3026b241dd79a90b65576a3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\d9e9a7cd05b8e36547fc2d4d9c0b86ef\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\69224af0ee8210f36d35bbb44a27aabf\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\fb1acb514954530dd9acf61afb47dd15\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\f2dd9912038e843c58d4782b9785cd97\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\06d90df04d0da8b5e020227069a75b60\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\543dc588a3c1c7fef36c73e0df73dcef\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\7ffaab7b90f60d35d4e6e9db5a7bd763\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\bb86b84b2c9f40c2a738d63ca12f4f43\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\6b1bef3b691b64ea9e4a0aa5005aa899\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\bb0fd3d72ee7c849b3fc18f8719a8a36\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\9ece1c427fc5eecaa45bcfec326eabc6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\1cdcbf952f0b0510f9fd7a95b1649789\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\104d2226715356f3cbb811cd57196bff\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\b7e3640ba07fb2e138c8121159d722e8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\c23e645454e66f269daa3c187652d4dc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\e92a3aba7684d474a65ca84086e0df26\AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.9.aar\933df2e8ad310382246369912459afd6\AndroidManifest.xml:2:1-19:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-ndk-2.0.5.aar\b18a74ff5a7688843c70f2e338ed840a\AndroidManifest.xml:23:1-33:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.8.aar\6125b0c6d7025d97d391ce6223e5f328\AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-answers-1.4.7.aar\8467d646c6fe08015760a0e809e66f88\AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\fabric-1.4.8.aar\319e1d5b767a2bbeea6b2ec8b125c5f0\AndroidManifest.xml:22:1-33:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\5272b5354b24a369061689ed9202afd7\AndroidManifest.xml:2:1-13:12
+INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:1:1-43:12
+INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:1:1-43:12
+INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:1:1-43:12
+	package
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:2:5-35
+		INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:1:1-43:12
+		INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:1:1-43:12
+		INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:8:5-66
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:23:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.9.aar\933df2e8ad310382246369912459afd6\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.9.aar\933df2e8ad310382246369912459afd6\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.8.aar\6125b0c6d7025d97d391ce6223e5f328\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.8.aar\6125b0c6d7025d97d391ce6223e5f328\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-answers-1.4.7.aar\8467d646c6fe08015760a0e809e66f88\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-answers-1.4.7.aar\8467d646c6fe08015760a0e809e66f88\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\fabric-1.4.8.aar\319e1d5b767a2bbeea6b2ec8b125c5f0\AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\fabric-1.4.8.aar\319e1d5b767a2bbeea6b2ec8b125c5f0\AndroidManifest.xml:29:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\5272b5354b24a369061689ed9202afd7\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\5272b5354b24a369061689ed9202afd7\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:8:22-64
+meta-data#io.fabric.ApiKey
+ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:10:5-12:50
+	android:value
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:12:9-47
+	android:name
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:11:9-40
+application
+ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:19:5-42:19
+MERGED from [:firebase_messaging] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:7:5-18:19
+MERGED from [:firebase_messaging] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:7:5-18:19
+MERGED from [:url_launcher] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:7:5-12:19
+MERGED from [:stripe_payment] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:11:5-12:19
+MERGED from [:stripe_payment] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:11:5-12:19
+MERGED from [:flutter_crashlytics] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\flutter_crashlytics\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:flutter_crashlytics] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\flutter_crashlytics\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.3.3.aar\d1e8ce758cc1e0675593658ccf3a78e9\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.3.3.aar\d1e8ce758cc1e0675593658ccf3a78e9\AndroidManifest.xml:22:5-35:19
+MERGED from [com.stripe:stripe-android:6.1.2] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-stripe-android-6.1.2.aar\c0b0e2e9d4e763068e7ee389a2989cf9\AndroidManifest.xml:11:5-25:19
+MERGED from [com.stripe:stripe-android:6.1.2] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-stripe-android-6.1.2.aar\c0b0e2e9d4e763068e7ee389a2989cf9\AndroidManifest.xml:11:5-25:19
+MERGED from [com.android.billingclient:billing:1.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-billing-1.1.aar\406c9e9487fe3a68ef9a2de6f532f71d\AndroidManifest.xml:12:5-17:19
+MERGED from [com.android.billingclient:billing:1.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-billing-1.1.aar\406c9e9487fe3a68ef9a2de6f532f71d\AndroidManifest.xml:12:5-17:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\c07a4154fdcd81c20f96ce1d8d164f21\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\c07a4154fdcd81c20f96ce1d8d164f21\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\a4ef2ee52e3fd0615a97aa4b7a5d2197\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\a4ef2ee52e3fd0615a97aa4b7a5d2197\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-interop-16.0.1.aar\f9f57d29e5240847046e6d91b9d8188b\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-interop-16.0.1.aar\f9f57d29e5240847046e6d91b9d8188b\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f2aff3d7aa50e5e74cc613c16f658425\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f2aff3d7aa50e5e74cc613c16f658425\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\51439ecd171077fcc12b17176430f9ea\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\51439ecd171077fcc12b17176430f9ea\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-17.0.1.aar\bf1b2faf8904381073900344acb55525\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-17.0.1.aar\bf1b2faf8904381073900344acb55525\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\5791383891f6b557df8e5842e96dfe34\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\5791383891f6b557df8e5842e96dfe34\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\44060c68276551470eb8c3b082191b7b\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\44060c68276551470eb8c3b082191b7b\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\06d90df04d0da8b5e020227069a75b60\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\06d90df04d0da8b5e020227069a75b60\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\1cdcbf952f0b0510f9fd7a95b1649789\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\1cdcbf952f0b0510f9fd7a95b1649789\AndroidManifest.xml:22:5-23:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.9.aar\933df2e8ad310382246369912459afd6\AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.9.aar\933df2e8ad310382246369912459afd6\AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-ndk-2.0.5.aar\b18a74ff5a7688843c70f2e338ed840a\AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-ndk-2.0.5.aar\b18a74ff5a7688843c70f2e338ed840a\AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.8.aar\6125b0c6d7025d97d391ce6223e5f328\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.8.aar\6125b0c6d7025d97d391ce6223e5f328\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-answers-1.4.7.aar\8467d646c6fe08015760a0e809e66f88\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-answers-1.4.7.aar\8467d646c6fe08015760a0e809e66f88\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\fabric-1.4.8.aar\319e1d5b767a2bbeea6b2ec8b125c5f0\AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\fabric-1.4.8.aar\319e1d5b767a2bbeea6b2ec8b125c5f0\AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\5272b5354b24a369061689ed9202afd7\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\5272b5354b24a369061689ed9202afd7\AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\06d90df04d0da8b5e020227069a75b60\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:22:9-43
+	android:theme
+		ADDED from [:stripe_payment] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:11:18-74
+	android:name
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:20:9-57
+activity#com.gomotive.homefit.MainActivity
+ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:23:9-41:20
+	android:launchMode
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:25:13-48
+	android:hardwareAccelerated
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:28:13-47
+	android:windowSoftInputMode
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:29:13-55
+	android:configChanges
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:27:13-137
+	android:theme
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:26:13-47
+	android:name
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:24:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:34:13-36:40
+	android:value
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:36:17-37
+	android:name
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:35:17-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:38:17-68
+	android:name
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml:39:27-74
+uses-sdk
+INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml
+MERGED from [:fluttertoast] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\fluttertoast\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\fluttertoast\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:video_player] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\video_player\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:video_player] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\video_player\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:device_info] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\device_info\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:device_info] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\device_info\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\sqflite\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\sqflite\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:stripe_payment] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:stripe_payment] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\stripe_payment\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:shared_preferences] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\shared_preferences\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\shared_preferences\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_macos] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\shared_preferences_macos\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_macos] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\shared_preferences_macos\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\path_provider\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\path_provider\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_crashlytics] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\flutter_crashlytics\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_crashlytics] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\flutter_crashlytics\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_inapp_purchase] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\flutter_inapp_purchase\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_inapp_purchase] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\flutter_inapp_purchase\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_macos] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\url_launcher_macos\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_macos] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\url_launcher_macos\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_web] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\url_launcher_web\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_web] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\url_launcher_web\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:screen] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\screen\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:screen] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\screen\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\multidex-2.0.0.aar\e7968ccc68e936fbf3b05d3906851b7d\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\multidex-2.0.0.aar\e7968ccc68e936fbf3b05d3906851b7d\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.6] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-hls-2.9.6.aar\f1372577d9b2018343001ac5fb72a8a4\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.6] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-hls-2.9.6.aar\f1372577d9b2018343001ac5fb72a8a4\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.6] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-dash-2.9.6.aar\b78a6356d78bee7a5fc5cf978fee0c1e\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.6] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-dash-2.9.6.aar\b78a6356d78bee7a5fc5cf978fee0c1e\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-smoothstreaming-2.9.6.aar\5c75d94601772b6f6de136014e94360e\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-smoothstreaming-2.9.6.aar\5c75d94601772b6f6de136014e94360e\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-core-2.9.6.aar\b58aa3e3c76ee8485aa26bf996e54dd3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-core-2.9.6.aar\b58aa3e3c76ee8485aa26bf996e54dd3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.3.3.aar\d1e8ce758cc1e0675593658ccf3a78e9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.3.3.aar\d1e8ce758cc1e0675593658ccf3a78e9\AndroidManifest.xml:20:5-44
+MERGED from [com.stripe:stripe-android:6.1.2] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-stripe-android-6.1.2.aar\c0b0e2e9d4e763068e7ee389a2989cf9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.stripe:stripe-android:6.1.2] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-stripe-android-6.1.2.aar\c0b0e2e9d4e763068e7ee389a2989cf9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.billingclient:billing:1.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-billing-1.1.aar\406c9e9487fe3a68ef9a2de6f532f71d\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.billingclient:billing:1.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-billing-1.1.aar\406c9e9487fe3a68ef9a2de6f532f71d\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\c07a4154fdcd81c20f96ce1d8d164f21\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\c07a4154fdcd81c20f96ce1d8d164f21\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\6ca6f292282e3279a4d9e4cae95607e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\6ca6f292282e3279a4d9e4cae95607e1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\a4ef2ee52e3fd0615a97aa4b7a5d2197\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\a4ef2ee52e3fd0615a97aa4b7a5d2197\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-interop-16.0.1.aar\f9f57d29e5240847046e6d91b9d8188b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-interop-16.0.1.aar\f9f57d29e5240847046e6d91b9d8188b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f2aff3d7aa50e5e74cc613c16f658425\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f2aff3d7aa50e5e74cc613c16f658425\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\51439ecd171077fcc12b17176430f9ea\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\51439ecd171077fcc12b17176430f9ea\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-17.0.1.aar\bf1b2faf8904381073900344acb55525\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-17.0.1.aar\bf1b2faf8904381073900344acb55525\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\5791383891f6b557df8e5842e96dfe34\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\5791383891f6b557df8e5842e96dfe34\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\44060c68276551470eb8c3b082191b7b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\44060c68276551470eb8c3b082191b7b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\ded7db876831d74a2e80f395c2766745\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\ded7db876831d74a2e80f395c2766745\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\263812be5bb94a3228296c3c889cc3de\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\263812be5bb94a3228296c3c889cc3de\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\e294281be82aa4bdf86251cfe0b4b1e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\e294281be82aa4bdf86251cfe0b4b1e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\d40267d0bb8893ef610b541e808957be\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\d40267d0bb8893ef610b541e808957be\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\d7c67f1a72221f2c1c1f38543a5c31cb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\d7c67f1a72221f2c1c1f38543a5c31cb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\0a7bf2e3e182d4235984316eb245c63c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\0a7bf2e3e182d4235984316eb245c63c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\77482bf380672f60d264977412f747c0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\77482bf380672f60d264977412f747c0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\5bb7bf6790de0e745d9914fa37f1e754\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\5bb7bf6790de0e745d9914fa37f1e754\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\transition-1.0.0.aar\f00c49c5a67532fea9efaad6231628da\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\transition-1.0.0.aar\f00c49c5a67532fea9efaad6231628da\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\f227fdda475c5bbaa8eb0177498e3980\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\f227fdda475c5bbaa8eb0177498e3980\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\c1625fe18b05fe809119c238b95ca3c7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\c1625fe18b05fe809119c238b95ca3c7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\29f83ab3f4cd567d9b4f00accf89153a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\29f83ab3f4cd567d9b4f00accf89153a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\056641b520be825f3d53e6800cdb16c3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\056641b520be825f3d53e6800cdb16c3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\6787fb0ee3026b241dd79a90b65576a3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\6787fb0ee3026b241dd79a90b65576a3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\d9e9a7cd05b8e36547fc2d4d9c0b86ef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\d9e9a7cd05b8e36547fc2d4d9c0b86ef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\69224af0ee8210f36d35bbb44a27aabf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\69224af0ee8210f36d35bbb44a27aabf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\fb1acb514954530dd9acf61afb47dd15\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\fb1acb514954530dd9acf61afb47dd15\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\f2dd9912038e843c58d4782b9785cd97\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\f2dd9912038e843c58d4782b9785cd97\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\06d90df04d0da8b5e020227069a75b60\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\06d90df04d0da8b5e020227069a75b60\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\543dc588a3c1c7fef36c73e0df73dcef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\543dc588a3c1c7fef36c73e0df73dcef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\7ffaab7b90f60d35d4e6e9db5a7bd763\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\7ffaab7b90f60d35d4e6e9db5a7bd763\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\bb86b84b2c9f40c2a738d63ca12f4f43\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\bb86b84b2c9f40c2a738d63ca12f4f43\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\6b1bef3b691b64ea9e4a0aa5005aa899\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\6b1bef3b691b64ea9e4a0aa5005aa899\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\bb0fd3d72ee7c849b3fc18f8719a8a36\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\bb0fd3d72ee7c849b3fc18f8719a8a36\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\9ece1c427fc5eecaa45bcfec326eabc6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\9ece1c427fc5eecaa45bcfec326eabc6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\1cdcbf952f0b0510f9fd7a95b1649789\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\1cdcbf952f0b0510f9fd7a95b1649789\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\104d2226715356f3cbb811cd57196bff\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\104d2226715356f3cbb811cd57196bff\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\b7e3640ba07fb2e138c8121159d722e8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\b7e3640ba07fb2e138c8121159d722e8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\c23e645454e66f269daa3c187652d4dc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\c23e645454e66f269daa3c187652d4dc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\e92a3aba7684d474a65ca84086e0df26\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\e92a3aba7684d474a65ca84086e0df26\AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.9.aar\933df2e8ad310382246369912459afd6\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.9.aar\933df2e8ad310382246369912459afd6\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-ndk-2.0.5.aar\b18a74ff5a7688843c70f2e338ed840a\AndroidManifest.xml:29:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-ndk-2.0.5.aar\b18a74ff5a7688843c70f2e338ed840a\AndroidManifest.xml:29:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.8.aar\6125b0c6d7025d97d391ce6223e5f328\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.8.aar\6125b0c6d7025d97d391ce6223e5f328\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-answers-1.4.7.aar\8467d646c6fe08015760a0e809e66f88\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-answers-1.4.7.aar\8467d646c6fe08015760a0e809e66f88\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\fabric-1.4.8.aar\319e1d5b767a2bbeea6b2ec8b125c5f0\AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\fabric-1.4.8.aar\319e1d5b767a2bbeea6b2ec8b125c5f0\AndroidManifest.xml:27:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\5272b5354b24a369061689ed9202afd7\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\5272b5354b24a369061689ed9202afd7\AndroidManifest.xml:7:5-43
+INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\android\app\src\main\AndroidManifest.xml
+service#io.flutter.plugins.firebasemessaging.FlutterFirebaseInstanceIDService
+ADDED from [:firebase_messaging] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+	android:name
+		ADDED from [:firebase_messaging] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:18-102
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [:firebase_messaging] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [:firebase_messaging] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:10:17-80
+	android:name
+		ADDED from [:firebase_messaging] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:10:25-77
+service#io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService
+ADDED from [:firebase_messaging] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:13:9-17:19
+	android:name
+		ADDED from [:firebase_messaging] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:13:18-101
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:14:13-16:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:15:17-78
+	android:name
+		ADDED from [:firebase_messaging] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:15:25-75
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+activity#com.kiwi.fluttercrashlytics.CrashActivity
+ADDED from [:flutter_crashlytics] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\flutter_crashlytics\intermediates\library_manifest\release\AndroidManifest.xml:8:9-78
+	android:name
+		ADDED from [:flutter_crashlytics] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\flutter_crashlytics\intermediates\library_manifest\release\AndroidManifest.xml:8:19-75
+meta-data#firebase_crashlytics_collection_enabled
+ADDED from [:flutter_crashlytics] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\flutter_crashlytics\intermediates\library_manifest\release\AndroidManifest.xml:10:9-12:37
+	android:value
+		ADDED from [:flutter_crashlytics] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\flutter_crashlytics\intermediates\library_manifest\release\AndroidManifest.xml:12:13-34
+	android:name
+		ADDED from [:flutter_crashlytics] D:\Projects\Android\dhf_homefit-develop\dhf_homefit-develop\homefit\build\flutter_crashlytics\intermediates\library_manifest\release\AndroidManifest.xml:11:13-67
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-core-2.9.6.aar\b58aa3e3c76ee8485aa26bf996e54dd3\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-core-2.9.6.aar\b58aa3e3c76ee8485aa26bf996e54dd3\AndroidManifest.xml:24:22-76
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.3.3.aar\d1e8ce758cc1e0675593658ccf3a78e9\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.3.3.aar\d1e8ce758cc1e0675593658ccf3a78e9\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.3.3.aar\d1e8ce758cc1e0675593658ccf3a78e9\AndroidManifest.xml:29:13-82
+activity#com.stripe.android.view.AddSourceActivity
+ADDED from [com.stripe:stripe-android:6.1.2] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-stripe-android-6.1.2.aar\c0b0e2e9d4e763068e7ee389a2989cf9\AndroidManifest.xml:12:9-16:20
+	android:windowSoftInputMode
+		ADDED from [com.stripe:stripe-android:6.1.2] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-stripe-android-6.1.2.aar\c0b0e2e9d4e763068e7ee389a2989cf9\AndroidManifest.xml:15:13-55
+	android:theme
+		ADDED from [com.stripe:stripe-android:6.1.2] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-stripe-android-6.1.2.aar\c0b0e2e9d4e763068e7ee389a2989cf9\AndroidManifest.xml:14:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:6.1.2] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-stripe-android-6.1.2.aar\c0b0e2e9d4e763068e7ee389a2989cf9\AndroidManifest.xml:13:13-69
+activity#com.stripe.android.view.PaymentMethodsActivity
+ADDED from [com.stripe:stripe-android:6.1.2] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-stripe-android-6.1.2.aar\c0b0e2e9d4e763068e7ee389a2989cf9\AndroidManifest.xml:17:9-20:20
+	android:theme
+		ADDED from [com.stripe:stripe-android:6.1.2] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-stripe-android-6.1.2.aar\c0b0e2e9d4e763068e7ee389a2989cf9\AndroidManifest.xml:19:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:6.1.2] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-stripe-android-6.1.2.aar\c0b0e2e9d4e763068e7ee389a2989cf9\AndroidManifest.xml:18:13-74
+activity#com.stripe.android.view.PaymentFlowActivity
+ADDED from [com.stripe:stripe-android:6.1.2] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-stripe-android-6.1.2.aar\c0b0e2e9d4e763068e7ee389a2989cf9\AndroidManifest.xml:21:9-24:20
+	android:theme
+		ADDED from [com.stripe:stripe-android:6.1.2] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-stripe-android-6.1.2.aar\c0b0e2e9d4e763068e7ee389a2989cf9\AndroidManifest.xml:23:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:6.1.2] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-stripe-android-6.1.2.aar\c0b0e2e9d4e763068e7ee389a2989cf9\AndroidManifest.xml:22:13-71
+uses-permission#com.android.vending.BILLING
+ADDED from [com.android.billingclient:billing:1.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-billing-1.1.aar\406c9e9487fe3a68ef9a2de6f532f71d\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [com.android.billingclient:billing:1.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-billing-1.1.aar\406c9e9487fe3a68ef9a2de6f532f71d\AndroidManifest.xml:10:22-64
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from [com.android.billingclient:billing:1.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-billing-1.1.aar\406c9e9487fe3a68ef9a2de6f532f71d\AndroidManifest.xml:13:9-16:75
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:1.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-billing-1.1.aar\406c9e9487fe3a68ef9a2de6f532f71d\AndroidManifest.xml:15:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:1.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-billing-1.1.aar\406c9e9487fe3a68ef9a2de6f532f71d\AndroidManifest.xml:16:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:1.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-billing-1.1.aar\406c9e9487fe3a68ef9a2de6f532f71d\AndroidManifest.xml:14:13-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:26:22-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.0.3.aar\17aed824d5a4e99e80528a85b89597cf\AndroidManifest.xml:51:13-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\a4ef2ee52e3fd0615a97aa4b7a5d2197\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\a4ef2ee52e3fd0615a97aa4b7a5d2197\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\a4ef2ee52e3fd0615a97aa4b7a5d2197\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\a4ef2ee52e3fd0615a97aa4b7a5d2197\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.0.3.aar\a4ef2ee52e3fd0615a97aa4b7a5d2197\AndroidManifest.xml:11:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f2aff3d7aa50e5e74cc613c16f658425\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f2aff3d7aa50e5e74cc613c16f658425\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f2aff3d7aa50e5e74cc613c16f658425\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\f2aff3d7aa50e5e74cc613c16f658425\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\44060c68276551470eb8c3b082191b7b\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\44060c68276551470eb8c3b082191b7b\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\44060c68276551470eb8c3b082191b7b\AndroidManifest.xml:24:13-58
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.9.aar\933df2e8ad310382246369912459afd6\AndroidManifest.xml:12:9-16:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.9.aar\933df2e8ad310382246369912459afd6\AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.9.aar\933df2e8ad310382246369912459afd6\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.9.aar\933df2e8ad310382246369912459afd6\AndroidManifest.xml:16:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] C:\Users\jagta\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.9.aar\933df2e8ad310382246369912459afd6\AndroidManifest.xml:13:13-75

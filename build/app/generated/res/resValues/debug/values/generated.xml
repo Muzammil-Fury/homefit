@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from default config. -->
+    <string name="app_name" translatable="false">DHF HomeFit</string>
+    <string name="fabric_api_key" translatable="false">15d02f15af0f517b80e243b0480469c2d8e683cc</string>
+
+</resources>

@@ -1,0 +1,41 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml:2:1-9:12
+	package
+		ADDED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml
+		INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml
+		ADDED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml:2:1-9:12
+		INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml
+		ADDED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml:2:1-9:12
+		INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml:5:5-7:19
+	android:theme
+		ADDED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml:6:9-65
+uses-sdk
+INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml
+INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml
+INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml
+INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml
+		ADDED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml
+		INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml
+		ADDED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml
+		INJECTED from /home/muz/.pub-cache/hosted/pub.dartlang.org/stripe_payment-0.1.0/android/src/main/AndroidManifest.xml

@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml",
+            "map": [
+                {
+                    "source": "/home/muz/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/45457308e5f704487d92d82bd929f39a/res/values-iw/values-iw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher/intermediates/res/merged/debug/values-iw/values-iw.xml",
+            "map": [
+                {
+                    "source": "/home/muz/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/45457308e5f704487d92d82bd929f39a/res/values-iw/values-iw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

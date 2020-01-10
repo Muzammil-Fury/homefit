@@ -1,0 +1,515 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:1:1-43:12
+MERGED from [:fluttertoast] /home/muz/Documents/Muzammil/flutter repo/homefit/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:video_player] /home/muz/Documents/Muzammil/flutter repo/homefit/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:device_info] /home/muz/Documents/Muzammil/flutter repo/homefit/build/device_info/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /home/muz/Documents/Muzammil/flutter repo/homefit/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_messaging] /home/muz/Documents/Muzammil/flutter repo/homefit/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-20:12
+MERGED from [:video_player_web] /home/muz/Documents/Muzammil/flutter repo/homefit/build/video_player_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] /home/muz/Documents/Muzammil/flutter repo/homefit/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_web] /home/muz/Documents/Muzammil/flutter repo/homefit/build/shared_preferences_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher] /home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:stripe_payment] /home/muz/Documents/Muzammil/flutter repo/homefit/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:shared_preferences_macos] /home/muz/Documents/Muzammil/flutter repo/homefit/build/shared_preferences_macos/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider] /home/muz/Documents/Muzammil/flutter repo/homefit/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_crashlytics] /home/muz/Documents/Muzammil/flutter repo/homefit/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:flutter_inapp_purchase] /home/muz/Documents/Muzammil/flutter repo/homefit/build/flutter_inapp_purchase/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_macos] /home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher_macos/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_web] /home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:screen] /home/muz/Documents/Muzammil/flutter repo/homefit/build/screen/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.stripe:stripe-android:6.1.2] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-stripe-android-6.1.2.aar/9bff84cc5d51099a6f09eea2e12c0f1e/AndroidManifest.xml:2:1-27:12
+MERGED from [com.google.android.material:material:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/b9e08012965a7b4439a7855ccc7878b2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/e9166d85ac3f41361bb07a2cb70e1146/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-17.3.3.aar/13ebfba12681eacc84a4f9195f161715/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/8b3fcbf3fde6956c31e285b90568d226/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/7aca58e1ca3e47c149f85611bdf111a3/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/d7c7607b03a6156d705a13c7ebfd453b/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/60a6d215bb1bbd951012fb36fae57140/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/a1cd9854fcb0320e05a2322feec8d6d3/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/6bc640b1c38e3b2fc652f6384cc6684b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/affd709dd2798599785dd3c29b739f1d/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/3ed3cd3bf944fdb10639066fb45a8b7d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/73702f4d32cfdc5dc9abf0251285d663/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/c334a0202b5a6130ec8912f5531e2867/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/a6886583fbf93a4745bafae7b5cdf4ab/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/266114a602f5d29ba31923eb4fb07f6b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/d56a17a060fbf8b1ee0a5c3b83426679/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/62627a38a7f3a3967fe09ce487248aa0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/6a97389d95fa0e939b51ca43acfe4037/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/c48e31fd51b37f2b17395607dc05317e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/a749b91bd27fe911327e2693165f7290/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/485fe69bfd49a924578cfae23e58d978/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/fd103b1147e01f79a93f37076137014e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/e235da25504f83608357c7f06586a45d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/d2f49db516307afcc2dd0ddab1544e32/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/9ed7bdf840a9ff33cb3a432a3e690e21/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/c4d5e6ed88a10c6357a3b59f2c465c00/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/4fa8d115f771ede2172e8d1bd71d44b2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/45457308e5f704487d92d82bd929f39a/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/9b14a20aafa7d2fff8947f77aa59fc06/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/f2a277ae6c066db8e046fa5cb5ae9f72/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/476954d1f3734d5409b19d043b6c5ade/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.6] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-exoplayer-hls-2.9.6.aar/145e0ba53a24a7d462f7d3d1f7d2467e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.6] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-exoplayer-dash-2.9.6.aar/c767c1d2db01ddf76b2b20f2d0e49e65/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-exoplayer-smoothstreaming-2.9.6.aar/7bac7c5887298a30d2ee6048dfd7d4af/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-exoplayer-core-2.9.6.aar/7b9f8db05e70e3ead13f6226832ad424/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.billingclient:billing:1.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-billing-1.1.aar/d037adcbe9d2308e0a645f3fbc160b5d/AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/e6e225f029e6de504791f6422a208ce5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/1998b136c70fb37212c610b352ea54fe/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/4cd4bcd021e2df1e88d4ca8240e779f2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/a9191dcc75e1ddab3a8a50873f4dee85/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/c45606df5d5111e9bafc8dc5901e870e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/37921f686df8761561f710ab8aeede25/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/2654b9f9795521ef9945d68b2f27b530/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/20e206052c5622b1ae484c23213ec03d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/a5d8f91bcb2bb898a036a28b43c6a00b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/e60d7692ce330a7e39f26e1e8f8df28e/AndroidManifest.xml:2:1-19:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-ndk-2.0.5.aar/744a6903b99d83dddd8d102bde56e668/AndroidManifest.xml:23:1-33:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/3a5b89084a3d20e3987b981233712afc/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.7.aar/945e821201a89eb0b82fe51331063978/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/muz/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/92c9f222d6f38e282e4bee6646616520/AndroidManifest.xml:22:1-33:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/muz/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/92356c285cb1df75ce6f787f7ea8e755/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:1:1-43:12
+	package
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:2:5-35
+		INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:1:1-43:12
+		INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:1:1-43:12
+		INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:8:5-66
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:23:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/e60d7692ce330a7e39f26e1e8f8df28e/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/e60d7692ce330a7e39f26e1e8f8df28e/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/3a5b89084a3d20e3987b981233712afc/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/3a5b89084a3d20e3987b981233712afc/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.7.aar/945e821201a89eb0b82fe51331063978/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.7.aar/945e821201a89eb0b82fe51331063978/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/muz/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/92c9f222d6f38e282e4bee6646616520/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/muz/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/92c9f222d6f38e282e4bee6646616520/AndroidManifest.xml:29:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/muz/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/92356c285cb1df75ce6f787f7ea8e755/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/muz/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/92356c285cb1df75ce6f787f7ea8e755/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:8:22-64
+meta-data#io.fabric.ApiKey
+ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:10:5-12:50
+	android:value
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:12:9-47
+	android:name
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:11:9-40
+application
+ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:19:5-42:19
+MERGED from [:firebase_messaging] /home/muz/Documents/Muzammil/flutter repo/homefit/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-18:19
+MERGED from [:firebase_messaging] /home/muz/Documents/Muzammil/flutter repo/homefit/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-18:19
+MERGED from [:url_launcher] /home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] /home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:stripe_payment] /home/muz/Documents/Muzammil/flutter repo/homefit/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:stripe_payment] /home/muz/Documents/Muzammil/flutter repo/homefit/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:flutter_crashlytics] /home/muz/Documents/Muzammil/flutter repo/homefit/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:flutter_crashlytics] /home/muz/Documents/Muzammil/flutter repo/homefit/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [com.stripe:stripe-android:6.1.2] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-stripe-android-6.1.2.aar/9bff84cc5d51099a6f09eea2e12c0f1e/AndroidManifest.xml:11:5-25:19
+MERGED from [com.stripe:stripe-android:6.1.2] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-stripe-android-6.1.2.aar/9bff84cc5d51099a6f09eea2e12c0f1e/AndroidManifest.xml:11:5-25:19
+MERGED from [com.google.android.material:material:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/b9e08012965a7b4439a7855ccc7878b2/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/b9e08012965a7b4439a7855ccc7878b2/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-17.3.3.aar/13ebfba12681eacc84a4f9195f161715/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-17.3.3.aar/13ebfba12681eacc84a4f9195f161715/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/8b3fcbf3fde6956c31e285b90568d226/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/8b3fcbf3fde6956c31e285b90568d226/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/7aca58e1ca3e47c149f85611bdf111a3/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/7aca58e1ca3e47c149f85611bdf111a3/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/d7c7607b03a6156d705a13c7ebfd453b/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/d7c7607b03a6156d705a13c7ebfd453b/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/60a6d215bb1bbd951012fb36fae57140/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/60a6d215bb1bbd951012fb36fae57140/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/a1cd9854fcb0320e05a2322feec8d6d3/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/a1cd9854fcb0320e05a2322feec8d6d3/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/6bc640b1c38e3b2fc652f6384cc6684b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/6bc640b1c38e3b2fc652f6384cc6684b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/affd709dd2798599785dd3c29b739f1d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/affd709dd2798599785dd3c29b739f1d/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/45457308e5f704487d92d82bd929f39a/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/45457308e5f704487d92d82bd929f39a/AndroidManifest.xml:22:5-89
+MERGED from [com.android.billingclient:billing:1.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-billing-1.1.aar/d037adcbe9d2308e0a645f3fbc160b5d/AndroidManifest.xml:12:5-17:19
+MERGED from [com.android.billingclient:billing:1.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-billing-1.1.aar/d037adcbe9d2308e0a645f3fbc160b5d/AndroidManifest.xml:12:5-17:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/a9191dcc75e1ddab3a8a50873f4dee85/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/a9191dcc75e1ddab3a8a50873f4dee85/AndroidManifest.xml:22:5-23:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/e60d7692ce330a7e39f26e1e8f8df28e/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/e60d7692ce330a7e39f26e1e8f8df28e/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-ndk-2.0.5.aar/744a6903b99d83dddd8d102bde56e668/AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-ndk-2.0.5.aar/744a6903b99d83dddd8d102bde56e668/AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/3a5b89084a3d20e3987b981233712afc/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/3a5b89084a3d20e3987b981233712afc/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.7.aar/945e821201a89eb0b82fe51331063978/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.7.aar/945e821201a89eb0b82fe51331063978/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/muz/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/92c9f222d6f38e282e4bee6646616520/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/muz/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/92c9f222d6f38e282e4bee6646616520/AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/muz/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/92356c285cb1df75ce6f787f7ea8e755/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/muz/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/92356c285cb1df75ce6f787f7ea8e755/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/45457308e5f704487d92d82bd929f39a/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:22:9-43
+	android:theme
+		ADDED from [:stripe_payment] /home/muz/Documents/Muzammil/flutter repo/homefit/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:11:18-74
+	android:name
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:20:9-57
+activity#com.gomotive.homefit.MainActivity
+ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:23:9-41:20
+	android:launchMode
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:25:13-48
+	android:hardwareAccelerated
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:28:13-47
+	android:windowSoftInputMode
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:29:13-55
+	android:configChanges
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:27:13-137
+	android:theme
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:26:13-47
+	android:name
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:24:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:34:13-36:40
+	android:value
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:36:17-37
+	android:name
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:35:17-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:38:17-68
+	android:name
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml:39:27-74
+uses-sdk
+INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml
+MERGED from [:fluttertoast] /home/muz/Documents/Muzammil/flutter repo/homefit/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /home/muz/Documents/Muzammil/flutter repo/homefit/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player] /home/muz/Documents/Muzammil/flutter repo/homefit/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player] /home/muz/Documents/Muzammil/flutter repo/homefit/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_info] /home/muz/Documents/Muzammil/flutter repo/homefit/build/device_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_info] /home/muz/Documents/Muzammil/flutter repo/homefit/build/device_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /home/muz/Documents/Muzammil/flutter repo/homefit/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /home/muz/Documents/Muzammil/flutter repo/homefit/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /home/muz/Documents/Muzammil/flutter repo/homefit/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /home/muz/Documents/Muzammil/flutter repo/homefit/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player_web] /home/muz/Documents/Muzammil/flutter repo/homefit/build/video_player_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player_web] /home/muz/Documents/Muzammil/flutter repo/homefit/build/video_player_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/muz/Documents/Muzammil/flutter repo/homefit/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/muz/Documents/Muzammil/flutter repo/homefit/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_web] /home/muz/Documents/Muzammil/flutter repo/homefit/build/shared_preferences_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_web] /home/muz/Documents/Muzammil/flutter repo/homefit/build/shared_preferences_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:stripe_payment] /home/muz/Documents/Muzammil/flutter repo/homefit/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:stripe_payment] /home/muz/Documents/Muzammil/flutter repo/homefit/build/stripe_payment/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:shared_preferences_macos] /home/muz/Documents/Muzammil/flutter repo/homefit/build/shared_preferences_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_macos] /home/muz/Documents/Muzammil/flutter repo/homefit/build/shared_preferences_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /home/muz/Documents/Muzammil/flutter repo/homefit/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /home/muz/Documents/Muzammil/flutter repo/homefit/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_crashlytics] /home/muz/Documents/Muzammil/flutter repo/homefit/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_crashlytics] /home/muz/Documents/Muzammil/flutter repo/homefit/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_inapp_purchase] /home/muz/Documents/Muzammil/flutter repo/homefit/build/flutter_inapp_purchase/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_inapp_purchase] /home/muz/Documents/Muzammil/flutter repo/homefit/build/flutter_inapp_purchase/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_macos] /home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_macos] /home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_web] /home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_web] /home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:screen] /home/muz/Documents/Muzammil/flutter repo/homefit/build/screen/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:screen] /home/muz/Documents/Muzammil/flutter repo/homefit/build/screen/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.stripe:stripe-android:6.1.2] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-stripe-android-6.1.2.aar/9bff84cc5d51099a6f09eea2e12c0f1e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.stripe:stripe-android:6.1.2] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-stripe-android-6.1.2.aar/9bff84cc5d51099a6f09eea2e12c0f1e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/b9e08012965a7b4439a7855ccc7878b2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/b9e08012965a7b4439a7855ccc7878b2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/e9166d85ac3f41361bb07a2cb70e1146/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/e9166d85ac3f41361bb07a2cb70e1146/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-17.3.3.aar/13ebfba12681eacc84a4f9195f161715/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-17.3.3.aar/13ebfba12681eacc84a4f9195f161715/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/8b3fcbf3fde6956c31e285b90568d226/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/8b3fcbf3fde6956c31e285b90568d226/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/7aca58e1ca3e47c149f85611bdf111a3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/7aca58e1ca3e47c149f85611bdf111a3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/d7c7607b03a6156d705a13c7ebfd453b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/d7c7607b03a6156d705a13c7ebfd453b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/60a6d215bb1bbd951012fb36fae57140/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/60a6d215bb1bbd951012fb36fae57140/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/a1cd9854fcb0320e05a2322feec8d6d3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/a1cd9854fcb0320e05a2322feec8d6d3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/6bc640b1c38e3b2fc652f6384cc6684b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/6bc640b1c38e3b2fc652f6384cc6684b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/affd709dd2798599785dd3c29b739f1d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/affd709dd2798599785dd3c29b739f1d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/3ed3cd3bf944fdb10639066fb45a8b7d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/3ed3cd3bf944fdb10639066fb45a8b7d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/73702f4d32cfdc5dc9abf0251285d663/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/73702f4d32cfdc5dc9abf0251285d663/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/c334a0202b5a6130ec8912f5531e2867/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/c334a0202b5a6130ec8912f5531e2867/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/a6886583fbf93a4745bafae7b5cdf4ab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/a6886583fbf93a4745bafae7b5cdf4ab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/266114a602f5d29ba31923eb4fb07f6b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/266114a602f5d29ba31923eb4fb07f6b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/d56a17a060fbf8b1ee0a5c3b83426679/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/d56a17a060fbf8b1ee0a5c3b83426679/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/62627a38a7f3a3967fe09ce487248aa0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/62627a38a7f3a3967fe09ce487248aa0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/6a97389d95fa0e939b51ca43acfe4037/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/6a97389d95fa0e939b51ca43acfe4037/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/c48e31fd51b37f2b17395607dc05317e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/c48e31fd51b37f2b17395607dc05317e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/a749b91bd27fe911327e2693165f7290/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/a749b91bd27fe911327e2693165f7290/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/485fe69bfd49a924578cfae23e58d978/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/485fe69bfd49a924578cfae23e58d978/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/fd103b1147e01f79a93f37076137014e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/fd103b1147e01f79a93f37076137014e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/e235da25504f83608357c7f06586a45d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/e235da25504f83608357c7f06586a45d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/d2f49db516307afcc2dd0ddab1544e32/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/d2f49db516307afcc2dd0ddab1544e32/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/9ed7bdf840a9ff33cb3a432a3e690e21/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/9ed7bdf840a9ff33cb3a432a3e690e21/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/c4d5e6ed88a10c6357a3b59f2c465c00/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/c4d5e6ed88a10c6357a3b59f2c465c00/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/4fa8d115f771ede2172e8d1bd71d44b2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/4fa8d115f771ede2172e8d1bd71d44b2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/45457308e5f704487d92d82bd929f39a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/45457308e5f704487d92d82bd929f39a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/9b14a20aafa7d2fff8947f77aa59fc06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/9b14a20aafa7d2fff8947f77aa59fc06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/f2a277ae6c066db8e046fa5cb5ae9f72/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/f2a277ae6c066db8e046fa5cb5ae9f72/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/476954d1f3734d5409b19d043b6c5ade/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/476954d1f3734d5409b19d043b6c5ade/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.6] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-exoplayer-hls-2.9.6.aar/145e0ba53a24a7d462f7d3d1f7d2467e/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.6] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-exoplayer-hls-2.9.6.aar/145e0ba53a24a7d462f7d3d1f7d2467e/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.6] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-exoplayer-dash-2.9.6.aar/c767c1d2db01ddf76b2b20f2d0e49e65/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.6] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-exoplayer-dash-2.9.6.aar/c767c1d2db01ddf76b2b20f2d0e49e65/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-exoplayer-smoothstreaming-2.9.6.aar/7bac7c5887298a30d2ee6048dfd7d4af/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-exoplayer-smoothstreaming-2.9.6.aar/7bac7c5887298a30d2ee6048dfd7d4af/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-exoplayer-core-2.9.6.aar/7b9f8db05e70e3ead13f6226832ad424/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-exoplayer-core-2.9.6.aar/7b9f8db05e70e3ead13f6226832ad424/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.billingclient:billing:1.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-billing-1.1.aar/d037adcbe9d2308e0a645f3fbc160b5d/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.billingclient:billing:1.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-billing-1.1.aar/d037adcbe9d2308e0a645f3fbc160b5d/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/e6e225f029e6de504791f6422a208ce5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/e6e225f029e6de504791f6422a208ce5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/1998b136c70fb37212c610b352ea54fe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/1998b136c70fb37212c610b352ea54fe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/4cd4bcd021e2df1e88d4ca8240e779f2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/4cd4bcd021e2df1e88d4ca8240e779f2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/a9191dcc75e1ddab3a8a50873f4dee85/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/a9191dcc75e1ddab3a8a50873f4dee85/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/c45606df5d5111e9bafc8dc5901e870e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/c45606df5d5111e9bafc8dc5901e870e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/37921f686df8761561f710ab8aeede25/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/37921f686df8761561f710ab8aeede25/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/2654b9f9795521ef9945d68b2f27b530/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/2654b9f9795521ef9945d68b2f27b530/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/20e206052c5622b1ae484c23213ec03d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/20e206052c5622b1ae484c23213ec03d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/a5d8f91bcb2bb898a036a28b43c6a00b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/muz/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/a5d8f91bcb2bb898a036a28b43c6a00b/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/e60d7692ce330a7e39f26e1e8f8df28e/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/e60d7692ce330a7e39f26e1e8f8df28e/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-ndk-2.0.5.aar/744a6903b99d83dddd8d102bde56e668/AndroidManifest.xml:29:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-ndk-2.0.5.aar/744a6903b99d83dddd8d102bde56e668/AndroidManifest.xml:29:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/3a5b89084a3d20e3987b981233712afc/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.8.aar/3a5b89084a3d20e3987b981233712afc/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.7.aar/945e821201a89eb0b82fe51331063978/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.7.aar/945e821201a89eb0b82fe51331063978/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/muz/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/92c9f222d6f38e282e4bee6646616520/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/muz/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/92c9f222d6f38e282e4bee6646616520/AndroidManifest.xml:27:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/muz/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/92356c285cb1df75ce6f787f7ea8e755/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/muz/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/92356c285cb1df75ce6f787f7ea8e755/AndroidManifest.xml:7:5-43
+INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/muz/Documents/Muzammil/flutter repo/homefit/android/app/src/main/AndroidManifest.xml
+service#io.flutter.plugins.firebasemessaging.FlutterFirebaseInstanceIDService
+ADDED from [:firebase_messaging] /home/muz/Documents/Muzammil/flutter repo/homefit/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+	android:name
+		ADDED from [:firebase_messaging] /home/muz/Documents/Muzammil/flutter repo/homefit/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-102
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [:firebase_messaging] /home/muz/Documents/Muzammil/flutter repo/homefit/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [:firebase_messaging] /home/muz/Documents/Muzammil/flutter repo/homefit/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-80
+	android:name
+		ADDED from [:firebase_messaging] /home/muz/Documents/Muzammil/flutter repo/homefit/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:25-77
+service#io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService
+ADDED from [:firebase_messaging] /home/muz/Documents/Muzammil/flutter repo/homefit/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-17:19
+	android:name
+		ADDED from [:firebase_messaging] /home/muz/Documents/Muzammil/flutter repo/homefit/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:18-101
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /home/muz/Documents/Muzammil/flutter repo/homefit/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-16:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /home/muz/Documents/Muzammil/flutter repo/homefit/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-78
+	android:name
+		ADDED from [:firebase_messaging] /home/muz/Documents/Muzammil/flutter repo/homefit/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:25-75
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher] /home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] /home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] /home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] /home/muz/Documents/Muzammil/flutter repo/homefit/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+activity#com.kiwi.fluttercrashlytics.CrashActivity
+ADDED from [:flutter_crashlytics] /home/muz/Documents/Muzammil/flutter repo/homefit/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-78
+	android:name
+		ADDED from [:flutter_crashlytics] /home/muz/Documents/Muzammil/flutter repo/homefit/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:19-75
+meta-data#firebase_crashlytics_collection_enabled
+ADDED from [:flutter_crashlytics] /home/muz/Documents/Muzammil/flutter repo/homefit/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-12:37
+	android:value
+		ADDED from [:flutter_crashlytics] /home/muz/Documents/Muzammil/flutter repo/homefit/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-34
+	android:name
+		ADDED from [:flutter_crashlytics] /home/muz/Documents/Muzammil/flutter repo/homefit/build/flutter_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-67
+activity#com.stripe.android.view.AddSourceActivity
+ADDED from [com.stripe:stripe-android:6.1.2] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-stripe-android-6.1.2.aar/9bff84cc5d51099a6f09eea2e12c0f1e/AndroidManifest.xml:12:9-16:20
+	android:windowSoftInputMode
+		ADDED from [com.stripe:stripe-android:6.1.2] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-stripe-android-6.1.2.aar/9bff84cc5d51099a6f09eea2e12c0f1e/AndroidManifest.xml:15:13-55
+	android:theme
+		ADDED from [com.stripe:stripe-android:6.1.2] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-stripe-android-6.1.2.aar/9bff84cc5d51099a6f09eea2e12c0f1e/AndroidManifest.xml:14:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:6.1.2] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-stripe-android-6.1.2.aar/9bff84cc5d51099a6f09eea2e12c0f1e/AndroidManifest.xml:13:13-69
+activity#com.stripe.android.view.PaymentMethodsActivity
+ADDED from [com.stripe:stripe-android:6.1.2] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-stripe-android-6.1.2.aar/9bff84cc5d51099a6f09eea2e12c0f1e/AndroidManifest.xml:17:9-20:20
+	android:theme
+		ADDED from [com.stripe:stripe-android:6.1.2] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-stripe-android-6.1.2.aar/9bff84cc5d51099a6f09eea2e12c0f1e/AndroidManifest.xml:19:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:6.1.2] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-stripe-android-6.1.2.aar/9bff84cc5d51099a6f09eea2e12c0f1e/AndroidManifest.xml:18:13-74
+activity#com.stripe.android.view.PaymentFlowActivity
+ADDED from [com.stripe:stripe-android:6.1.2] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-stripe-android-6.1.2.aar/9bff84cc5d51099a6f09eea2e12c0f1e/AndroidManifest.xml:21:9-24:20
+	android:theme
+		ADDED from [com.stripe:stripe-android:6.1.2] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-stripe-android-6.1.2.aar/9bff84cc5d51099a6f09eea2e12c0f1e/AndroidManifest.xml:23:13-54
+	android:name
+		ADDED from [com.stripe:stripe-android:6.1.2] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-stripe-android-6.1.2.aar/9bff84cc5d51099a6f09eea2e12c0f1e/AndroidManifest.xml:22:13-71
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-17.3.3.aar/13ebfba12681eacc84a4f9195f161715/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-17.3.3.aar/13ebfba12681eacc84a4f9195f161715/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-17.3.3.aar/13ebfba12681eacc84a4f9195f161715/AndroidManifest.xml:29:13-82
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-exoplayer-core-2.9.6.aar/7b9f8db05e70e3ead13f6226832ad424/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-exoplayer-core-2.9.6.aar/7b9f8db05e70e3ead13f6226832ad424/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:26:22-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/efb94df21045c25ee61abf75b92a2ff4/AndroidManifest.xml:51:13-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/8b3fcbf3fde6956c31e285b90568d226/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/8b3fcbf3fde6956c31e285b90568d226/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/8b3fcbf3fde6956c31e285b90568d226/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/8b3fcbf3fde6956c31e285b90568d226/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/8b3fcbf3fde6956c31e285b90568d226/AndroidManifest.xml:11:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/d7c7607b03a6156d705a13c7ebfd453b/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/d7c7607b03a6156d705a13c7ebfd453b/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/d7c7607b03a6156d705a13c7ebfd453b/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/d7c7607b03a6156d705a13c7ebfd453b/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/affd709dd2798599785dd3c29b739f1d/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/affd709dd2798599785dd3c29b739f1d/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/affd709dd2798599785dd3c29b739f1d/AndroidManifest.xml:24:13-58
+uses-permission#com.android.vending.BILLING
+ADDED from [com.android.billingclient:billing:1.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-billing-1.1.aar/d037adcbe9d2308e0a645f3fbc160b5d/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [com.android.billingclient:billing:1.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-billing-1.1.aar/d037adcbe9d2308e0a645f3fbc160b5d/AndroidManifest.xml:10:22-64
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from [com.android.billingclient:billing:1.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-billing-1.1.aar/d037adcbe9d2308e0a645f3fbc160b5d/AndroidManifest.xml:13:9-16:75
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:1.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-billing-1.1.aar/d037adcbe9d2308e0a645f3fbc160b5d/AndroidManifest.xml:15:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:1.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-billing-1.1.aar/d037adcbe9d2308e0a645f3fbc160b5d/AndroidManifest.xml:16:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:1.1] /home/muz/.gradle/caches/transforms-1/files-1.1/jetified-billing-1.1.aar/d037adcbe9d2308e0a645f3fbc160b5d/AndroidManifest.xml:14:13-78
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/e60d7692ce330a7e39f26e1e8f8df28e/AndroidManifest.xml:12:9-16:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/e60d7692ce330a7e39f26e1e8f8df28e/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/e60d7692ce330a7e39f26e1e8f8df28e/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/e60d7692ce330a7e39f26e1e8f8df28e/AndroidManifest.xml:16:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/muz/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.9.aar/e60d7692ce330a7e39f26e1e8f8df28e/AndroidManifest.xml:13:13-75

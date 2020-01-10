@@ -1,0 +1,233 @@
+{
+  "project_info": {
+    "project_number": "902953928204",
+    "firebase_url": "https://gomotive-ada4f.firebaseio.com",
+    "project_id": "gomotive-ada4f",
+    "storage_bucket": "gomotive-ada4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902953928204:android:add0886936399cf0",
+        "android_client_info": {
+          "package_name": "com.gomotive.afc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902953928204-alfj980n36dsetcrnb2ad5mj0q6s8pov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCDsYQvMRS5lgvYv1fLwWZLS_2HJbKKZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902953928204-alfj980n36dsetcrnb2ad5mj0q6s8pov.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "902953928204-04565ht0rjkknektiur84vbuv1o118cm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gomotive.afc",
+                "app_store_id": "1154468403"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902953928204:android:fd31083856ef3554",
+        "android_client_info": {
+          "package_name": "com.gomotive.cc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902953928204-alfj980n36dsetcrnb2ad5mj0q6s8pov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCDsYQvMRS5lgvYv1fLwWZLS_2HJbKKZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902953928204-alfj980n36dsetcrnb2ad5mj0q6s8pov.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "902953928204-04565ht0rjkknektiur84vbuv1o118cm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gomotive.afc",
+                "app_store_id": "1154468403"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902953928204:android:2afc6518ddc7041d",
+        "android_client_info": {
+          "package_name": "com.gomotive.dhf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902953928204-alfj980n36dsetcrnb2ad5mj0q6s8pov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCDsYQvMRS5lgvYv1fLwWZLS_2HJbKKZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902953928204-alfj980n36dsetcrnb2ad5mj0q6s8pov.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "902953928204-04565ht0rjkknektiur84vbuv1o118cm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gomotive.afc",
+                "app_store_id": "1154468403"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902953928204:android:b23fcca85f916f68",
+        "android_client_info": {
+          "package_name": "com.gomotive.dhf.move"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902953928204-alfj980n36dsetcrnb2ad5mj0q6s8pov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCDsYQvMRS5lgvYv1fLwWZLS_2HJbKKZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902953928204-alfj980n36dsetcrnb2ad5mj0q6s8pov.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "902953928204-04565ht0rjkknektiur84vbuv1o118cm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gomotive.afc",
+                "app_store_id": "1154468403"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902953928204:android:200425d0a1389496",
+        "android_client_info": {
+          "package_name": "com.gomotive.dhf.workfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902953928204-alfj980n36dsetcrnb2ad5mj0q6s8pov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCDsYQvMRS5lgvYv1fLwWZLS_2HJbKKZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902953928204-alfj980n36dsetcrnb2ad5mj0q6s8pov.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "902953928204-04565ht0rjkknektiur84vbuv1o118cm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gomotive.afc",
+                "app_store_id": "1154468403"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902953928204:android:d61e990fe712d7d1",
+        "android_client_info": {
+          "package_name": "com.gomotive.gi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902953928204-alfj980n36dsetcrnb2ad5mj0q6s8pov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCDsYQvMRS5lgvYv1fLwWZLS_2HJbKKZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902953928204-alfj980n36dsetcrnb2ad5mj0q6s8pov.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "902953928204-04565ht0rjkknektiur84vbuv1o118cm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gomotive.afc",
+                "app_store_id": "1154468403"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
