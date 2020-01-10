@@ -6,7 +6,7 @@ import 'package:homefit/user/user_reducer.dart';
 AppState appReducer(AppState state, action) {
   return new AppState(
     homeState: homeReducer(state.homeState, action),    
-    workoutState: workoutReducer(state.workoutState, action),
+    homeFitWorkoutState: homeFitWorkoutReducer(state.homeFitWorkoutState, action),
     userState: userReducer(state.userState, action),
   );
 }

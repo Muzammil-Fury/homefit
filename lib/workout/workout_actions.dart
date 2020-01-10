@@ -5,12 +5,12 @@ class RecommendedWorkoutListSuccessActionCreator {
   );
 }
 
-class WorkoutListSuccessActionCreator {
+class homeFitWorkoutListSuccessActionCreator {
   final List<Map> workouts;
   final Map paginateInfo;
   final List favoriteList;
   final bool isValidHomeFitSubscription;
-  WorkoutListSuccessActionCreator(
+  homeFitWorkoutListSuccessActionCreator(
     this.workouts,
     this.paginateInfo,
     this.favoriteList,
@@ -19,10 +19,10 @@ class WorkoutListSuccessActionCreator {
 }
 
 
-class WorkoutGetSuccessActionCreator {
+class homeFitWorkoutGetSuccessActionCreator {
   final Map workout;
   final bool isFavorite;
-  WorkoutGetSuccessActionCreator(
+  homeFitWorkoutGetSuccessActionCreator(
     this.workout,
     this.isFavorite
   );

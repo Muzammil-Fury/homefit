@@ -2,89 +2,89 @@ import 'package:redux/redux.dart';
 import 'package:homefit/workout/workout_state.dart';
 import 'package:homefit/workout/workout_actions.dart';
 
-Reducer<WorkoutState> workoutReducer = combineReducers([
-  new TypedReducer<WorkoutState, RecommendedWorkoutListSuccessActionCreator>(_recommendedWorkoutListSuccessActionCreator),
-  new TypedReducer<WorkoutState, WorkoutGetSuccessActionCreator>(_workoutGetSuccessActionCreator),
-  new TypedReducer<WorkoutState, WorkoutListSuccessActionCreator>(_workoutListSuccessActionCreator),
-  new TypedReducer<WorkoutState, WorkoutFavoriteToggleActionCreator>(_workoutFavoriteToggleActionCreator),
-  new TypedReducer<WorkoutState, FilterMovementMeterActionCreator>(_filterMovementMeterActionCreator),
-  new TypedReducer<WorkoutState, FilterEquipmentActionCreator>(_filterEquipmentActionCreator),
-  new TypedReducer<WorkoutState, FilterWorkoutTypeActionCreator>(_filterWorkoutTypeActionCreator),
-  new TypedReducer<WorkoutState, FilterWorkoutDurationActionCreator>(_filterWorkoutDurationActionCreator),
-  new TypedReducer<WorkoutState, FilterWorkoutFitnessLevelActionCreator>(_filterWorkoutFitnessLevelActionCreator),
-  new TypedReducer<WorkoutState, FilterWorkoutSportsActionCreator>(_filterWorkoutSportsActionCreator),
-  new TypedReducer<WorkoutState, FilterFavoriteActionCreator>(_filterFavoriteActionCreator),
-  new TypedReducer<WorkoutState, MobilityWorkoutListSuccessActionCreator>(_mobilityWorkoutListSuccessActionCreator),
-  new TypedReducer<WorkoutState, StrengthWorkoutListSuccessActionCreator>(_strengthWorkoutListSuccessActionCreator),
-  new TypedReducer<WorkoutState, MetabolicWorkoutListSuccessActionCreator>(_metabolicWorkoutListSuccessActionCreator),
-  new TypedReducer<WorkoutState, PowerWorkoutListSuccessActionCreator>(_powerWorkoutListSuccessActionCreator),
-  new TypedReducer<WorkoutState, MobilityResilienceWorkoutListSuccessActionCreator>(
+Reducer<HomeFitWorkoutState> homeFitWorkoutReducer = combineReducers([
+  new TypedReducer<HomeFitWorkoutState, RecommendedWorkoutListSuccessActionCreator>(_recommendedWorkoutListSuccessActionCreator),
+  new TypedReducer<HomeFitWorkoutState, homeFitWorkoutGetSuccessActionCreator>(_workoutGetSuccessActionCreator), //change Action name
+  new TypedReducer<HomeFitWorkoutState, homeFitWorkoutListSuccessActionCreator>(_workoutListSuccessActionCreator), //change
+  new TypedReducer<HomeFitWorkoutState, WorkoutFavoriteToggleActionCreator>(_workoutFavoriteToggleActionCreator),
+  new TypedReducer<HomeFitWorkoutState, FilterMovementMeterActionCreator>(_filterMovementMeterActionCreator),
+  new TypedReducer<HomeFitWorkoutState, FilterEquipmentActionCreator>(_filterEquipmentActionCreator),
+  new TypedReducer<HomeFitWorkoutState, FilterWorkoutTypeActionCreator>(_filterWorkoutTypeActionCreator),
+  new TypedReducer<HomeFitWorkoutState, FilterWorkoutDurationActionCreator>(_filterWorkoutDurationActionCreator),
+  new TypedReducer<HomeFitWorkoutState, FilterWorkoutFitnessLevelActionCreator>(_filterWorkoutFitnessLevelActionCreator),
+  new TypedReducer<HomeFitWorkoutState, FilterWorkoutSportsActionCreator>(_filterWorkoutSportsActionCreator),
+  new TypedReducer<HomeFitWorkoutState, FilterFavoriteActionCreator>(_filterFavoriteActionCreator),
+  new TypedReducer<HomeFitWorkoutState, MobilityWorkoutListSuccessActionCreator>(_mobilityWorkoutListSuccessActionCreator),
+  new TypedReducer<HomeFitWorkoutState, StrengthWorkoutListSuccessActionCreator>(_strengthWorkoutListSuccessActionCreator),
+  new TypedReducer<HomeFitWorkoutState, MetabolicWorkoutListSuccessActionCreator>(_metabolicWorkoutListSuccessActionCreator),
+  new TypedReducer<HomeFitWorkoutState, PowerWorkoutListSuccessActionCreator>(_powerWorkoutListSuccessActionCreator),
+  new TypedReducer<HomeFitWorkoutState, MobilityResilienceWorkoutListSuccessActionCreator>(
     _mobilityResilienceWorkoutListSuccessActionCreator
   ),
-  new TypedReducer<WorkoutState, MobilityFluidityWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, MobilityFluidityWorkoutListSuccessActionCreator>(
     _mobilityFluidityWorkoutListSuccessActionCreator
   ),
-  new TypedReducer<WorkoutState, MobilityActivationWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, MobilityActivationWorkoutListSuccessActionCreator>(
     _mobilityActivationWorkoutListSuccessActionCreator
   ),
-  new TypedReducer<WorkoutState, MobilityKidsfitWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, MobilityKidsfitWorkoutListSuccessActionCreator>(
     _mobilityKidsfitWorkoutListSuccessActionCreator
   ),
-  new TypedReducer<WorkoutState, MobilityWorkfitWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, MobilityWorkfitWorkoutListSuccessActionCreator>(
     _mobilityWorkfitWorkoutListSuccessActionCreator
   ),
 
-  new TypedReducer<WorkoutState, StrengthPushPullWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, StrengthPushPullWorkoutListSuccessActionCreator>(
     _strengthPushPullWorkoutListSuccessActionCreator
   ),
-  new TypedReducer<WorkoutState, StrengthLiftingCarryingWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, StrengthLiftingCarryingWorkoutListSuccessActionCreator>(
     _strengthLiftingCarryingWorkoutListSuccessActionCreator
   ),
-  new TypedReducer<WorkoutState, StrengthGrand2StandWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, StrengthGrand2StandWorkoutListSuccessActionCreator>(
     _strengthGrand2StandWorkoutListSuccessActionCreator
   ),
-  new TypedReducer<WorkoutState, StrengthRotationalStrengthWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, StrengthRotationalStrengthWorkoutListSuccessActionCreator>(
     _strengthRotationalStrengthWorkoutListSuccessActionCreator
   ),
-  new TypedReducer<WorkoutState, StrengthKidsfitWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, StrengthKidsfitWorkoutListSuccessActionCreator>(
     _strengthKidsfitWorkoutListSuccessActionCreator
   ),
-  new TypedReducer<WorkoutState, StrengthWorkfitWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, StrengthWorkfitWorkoutListSuccessActionCreator>(
     _strengthWorkfitWorkoutListSuccessActionCreator
   ),
 
-  new TypedReducer<WorkoutState, MetabolicHiitWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, MetabolicHiitWorkoutListSuccessActionCreator>(
     _metabolicHiitWorkoutListSuccessActionCreator
   ),
-  new TypedReducer<WorkoutState, MetabolicHiisWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, MetabolicHiisWorkoutListSuccessActionCreator>(
     _metabolicHiisWorkoutListSuccessActionCreator
   ),
-  new TypedReducer<WorkoutState, MetabolicSissWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, MetabolicSissWorkoutListSuccessActionCreator>(
     _metabolicSissWorkoutListSuccessActionCreator
   ),
-  new TypedReducer<WorkoutState, MetabolicKidsfitWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, MetabolicKidsfitWorkoutListSuccessActionCreator>(
     _metabolicKidsfitWorkoutListSuccessActionCreator
   ),
 
-  new TypedReducer<WorkoutState, PowerAccelerationDecelerationWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, PowerAccelerationDecelerationWorkoutListSuccessActionCreator>(
     _powerAccelerationDecelerationWorkoutListSuccessActionCreator
   ),
-  new TypedReducer<WorkoutState, PowerSpeedReactionWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, PowerSpeedReactionWorkoutListSuccessActionCreator>(
     _powerSpeedReactionWorkoutListSuccessActionCreator
   ),
-  new TypedReducer<WorkoutState, PowerMaxPowerWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, PowerMaxPowerWorkoutListSuccessActionCreator>(
     _powerMaxPowerWorkoutListSuccessActionCreator
   ),
-  new TypedReducer<WorkoutState, PowerPylometricsWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, PowerPylometricsWorkoutListSuccessActionCreator>(
     _powerPylometricsWorkoutListSuccessActionCreator
   ),
-  new TypedReducer<WorkoutState, PowerKidsfitWorkoutListSuccessActionCreator>(
+  new TypedReducer<HomeFitWorkoutState, PowerKidsfitWorkoutListSuccessActionCreator>(
     _powerKidsfitWorkoutListSuccessActionCreator
   ),
 ]);
 
-WorkoutState _getCopy(WorkoutState state) {
-  return new WorkoutState().copyWith(
+HomeFitWorkoutState _getCopy(HomeFitWorkoutState state) {
+  return new HomeFitWorkoutState().copyWith(
     recommendedWorkouts: state.recommendedWorkouts,    
     workouts: state.workouts,
     workout: state.workout,
@@ -171,7 +171,7 @@ WorkoutState _getCopy(WorkoutState state) {
   );
 }
 
-WorkoutState _workoutListSuccessActionCreator(WorkoutState state, WorkoutListSuccessActionCreator action) {  
+HomeFitWorkoutState _workoutListSuccessActionCreator(HomeFitWorkoutState state, homeFitWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       workouts: action.workouts,
@@ -189,106 +189,106 @@ WorkoutState _workoutListSuccessActionCreator(WorkoutState state, WorkoutListSuc
   }
 }
 
-WorkoutState _recommendedWorkoutListSuccessActionCreator(WorkoutState state, RecommendedWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _recommendedWorkoutListSuccessActionCreator(HomeFitWorkoutState state, RecommendedWorkoutListSuccessActionCreator action) {
   return _getCopy(state).copyWith(
     recommendedWorkouts: action.recommendedWorkouts
   );
 }
 
-WorkoutState _workoutGetSuccessActionCreator(WorkoutState state, WorkoutGetSuccessActionCreator action) {
+HomeFitWorkoutState _workoutGetSuccessActionCreator(HomeFitWorkoutState state, homeFitWorkoutGetSuccessActionCreator action) {
   return _getCopy(state).copyWith(
     workout: action.workout,
     isFavoriteWorkout: action.isFavorite
   );
 }
 
-WorkoutState _workoutFavoriteToggleActionCreator(WorkoutState state, WorkoutFavoriteToggleActionCreator action) {
+HomeFitWorkoutState _workoutFavoriteToggleActionCreator(HomeFitWorkoutState state, WorkoutFavoriteToggleActionCreator action) {
   return _getCopy(state).copyWith(
     isFavoriteWorkout: action.isFavorite
   );
 }
 
-WorkoutState _filterMovementMeterActionCreator(WorkoutState state, FilterMovementMeterActionCreator action) {
+HomeFitWorkoutState _filterMovementMeterActionCreator(HomeFitWorkoutState state, FilterMovementMeterActionCreator action) {
   return _getCopy(state).copyWith(
     movementMeterFilter: action.movementMeterFilter
   );
 }
 
-WorkoutState _filterEquipmentActionCreator(WorkoutState state, FilterEquipmentActionCreator action) {
+HomeFitWorkoutState _filterEquipmentActionCreator(HomeFitWorkoutState state, FilterEquipmentActionCreator action) {
   
   if(action.toggleEquipment == "bodyweight") {
-    WorkoutState newState = _getCopy(state).copyWith(
+    HomeFitWorkoutState newState = _getCopy(state).copyWith(
       equipmentBodyweight: !state.equipmentBodyweight
     );
     return newState;
   } else if(action.toggleEquipment == "dumbbell") {
-    WorkoutState newState = _getCopy(state).copyWith(
+    HomeFitWorkoutState newState = _getCopy(state).copyWith(
       equipmentDumbbell: !state.equipmentDumbbell
     );
     return newState;
   } else if(action.toggleEquipment == "kettlebell") {
-    WorkoutState newState = _getCopy(state).copyWith(
+    HomeFitWorkoutState newState = _getCopy(state).copyWith(
       equipmentKettlebell: !state.equipmentKettlebell
     );
     return newState;
   } else if(action.toggleEquipment == "powerplate") {
-    WorkoutState newState = _getCopy(state).copyWith(
+    HomeFitWorkoutState newState = _getCopy(state).copyWith(
       equipmentPowerPlate: !state.equipmentPowerPlate
     );
     return newState;
   } else if(action.toggleEquipment == "foamroller") {
-    WorkoutState newState = _getCopy(state).copyWith(
+    HomeFitWorkoutState newState = _getCopy(state).copyWith(
       equipmentFoamRoller: !state.equipmentFoamRoller
     );
     return newState;
   } else if(action.toggleEquipment == "band") {
-    WorkoutState newState = _getCopy(state).copyWith(
+    HomeFitWorkoutState newState = _getCopy(state).copyWith(
       equipmentBands: !state.equipmentBands
     );
     return newState;    
   } else if(action.toggleEquipment == "bosu") {
-    WorkoutState newState = _getCopy(state).copyWith(
+    HomeFitWorkoutState newState = _getCopy(state).copyWith(
       equipmentBosu: !state.equipmentBosu
     );
     return newState;    
   } else if(action.toggleEquipment == "rockblade") {
-    WorkoutState newState = _getCopy(state).copyWith(
+    HomeFitWorkoutState newState = _getCopy(state).copyWith(
       equipmentRockblade: !state.equipmentRockblade
     );
     return newState;    
   }
 }
 
-WorkoutState _filterWorkoutTypeActionCreator(WorkoutState state, FilterWorkoutTypeActionCreator action) {
+HomeFitWorkoutState _filterWorkoutTypeActionCreator(HomeFitWorkoutState state, FilterWorkoutTypeActionCreator action) {
   return _getCopy(state).copyWith(
     workoutType: action.workoutType
   );
 }
 
-WorkoutState _filterWorkoutDurationActionCreator(WorkoutState state, FilterWorkoutDurationActionCreator action) {
+HomeFitWorkoutState _filterWorkoutDurationActionCreator(HomeFitWorkoutState state, FilterWorkoutDurationActionCreator action) {
   return _getCopy(state).copyWith(
     workoutDuration: action.workoutDuration
   );
 }
 
-WorkoutState _filterWorkoutFitnessLevelActionCreator(WorkoutState state, FilterWorkoutFitnessLevelActionCreator action) {
-  WorkoutState newState =  _getCopy(state).copyWith(
+HomeFitWorkoutState _filterWorkoutFitnessLevelActionCreator(HomeFitWorkoutState state, FilterWorkoutFitnessLevelActionCreator action) {
+  HomeFitWorkoutState newState =  _getCopy(state).copyWith(
     workoutFitnessLevel: action.workoutFitnessLevel
   );
   return newState;
 }
 
 
-WorkoutState _filterWorkoutSportsActionCreator(WorkoutState state, FilterWorkoutSportsActionCreator action) {
-  WorkoutState newState =  _getCopy(state).copyWith(
+HomeFitWorkoutState _filterWorkoutSportsActionCreator(HomeFitWorkoutState state, FilterWorkoutSportsActionCreator action) {
+  HomeFitWorkoutState newState =  _getCopy(state).copyWith(
     workoutSports: action.workoutSports
   );
   return newState;
 }
 
 
-WorkoutState _filterFavoriteActionCreator(WorkoutState state, FilterFavoriteActionCreator action) {
-  WorkoutState newState =  _getCopy(state).copyWith(
+HomeFitWorkoutState _filterFavoriteActionCreator(HomeFitWorkoutState state, FilterFavoriteActionCreator action) {
+  HomeFitWorkoutState newState =  _getCopy(state).copyWith(
     favoriteEnabled: action.favoriteEnabled
   );
   return newState;
@@ -296,7 +296,7 @@ WorkoutState _filterFavoriteActionCreator(WorkoutState state, FilterFavoriteActi
 
 
 
-WorkoutState _mobilityWorkoutListSuccessActionCreator(WorkoutState state, MobilityWorkoutListSuccessActionCreator action) {  
+HomeFitWorkoutState _mobilityWorkoutListSuccessActionCreator(HomeFitWorkoutState state, MobilityWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       mobilityWorkouts: action.workouts,
@@ -310,7 +310,7 @@ WorkoutState _mobilityWorkoutListSuccessActionCreator(WorkoutState state, Mobili
   }
 }
 
-WorkoutState _strengthWorkoutListSuccessActionCreator(WorkoutState state, StrengthWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _strengthWorkoutListSuccessActionCreator(HomeFitWorkoutState state, StrengthWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       strengthWorkouts: action.workouts,
@@ -324,7 +324,7 @@ WorkoutState _strengthWorkoutListSuccessActionCreator(WorkoutState state, Streng
   }
 }
 
-WorkoutState _metabolicWorkoutListSuccessActionCreator(WorkoutState state, MetabolicWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _metabolicWorkoutListSuccessActionCreator(HomeFitWorkoutState state, MetabolicWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       metabolicWorkouts: action.workouts,
@@ -338,7 +338,7 @@ WorkoutState _metabolicWorkoutListSuccessActionCreator(WorkoutState state, Metab
   }
 }
 
-WorkoutState _powerWorkoutListSuccessActionCreator(WorkoutState state, PowerWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _powerWorkoutListSuccessActionCreator(HomeFitWorkoutState state, PowerWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       powerWorkouts: action.workouts,
@@ -352,7 +352,7 @@ WorkoutState _powerWorkoutListSuccessActionCreator(WorkoutState state, PowerWork
   }
 }
 
-WorkoutState _mobilityResilienceWorkoutListSuccessActionCreator(WorkoutState state, MobilityResilienceWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _mobilityResilienceWorkoutListSuccessActionCreator(HomeFitWorkoutState state, MobilityResilienceWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       mobilityResilienceWorkouts: action.workouts,
@@ -366,7 +366,7 @@ WorkoutState _mobilityResilienceWorkoutListSuccessActionCreator(WorkoutState sta
   }
 }
 
-WorkoutState _mobilityFluidityWorkoutListSuccessActionCreator(WorkoutState state, MobilityFluidityWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _mobilityFluidityWorkoutListSuccessActionCreator(HomeFitWorkoutState state, MobilityFluidityWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       mobilityFluidityWorkouts: action.workouts,
@@ -380,7 +380,7 @@ WorkoutState _mobilityFluidityWorkoutListSuccessActionCreator(WorkoutState state
   }
 }
 
-WorkoutState _mobilityActivationWorkoutListSuccessActionCreator(WorkoutState state, MobilityActivationWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _mobilityActivationWorkoutListSuccessActionCreator(HomeFitWorkoutState state, MobilityActivationWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       mobilityActivationWorkouts: action.workouts,
@@ -394,7 +394,7 @@ WorkoutState _mobilityActivationWorkoutListSuccessActionCreator(WorkoutState sta
   }
 }
 
-WorkoutState _mobilityKidsfitWorkoutListSuccessActionCreator(WorkoutState state, MobilityKidsfitWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _mobilityKidsfitWorkoutListSuccessActionCreator(HomeFitWorkoutState state, MobilityKidsfitWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       mobilityKidsFitWorkouts: action.workouts,
@@ -408,7 +408,7 @@ WorkoutState _mobilityKidsfitWorkoutListSuccessActionCreator(WorkoutState state,
   }
 }
 
-WorkoutState _mobilityWorkfitWorkoutListSuccessActionCreator(WorkoutState state, MobilityWorkfitWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _mobilityWorkfitWorkoutListSuccessActionCreator(HomeFitWorkoutState state, MobilityWorkfitWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       mobilityWorkFitWorkouts: action.workouts,
@@ -422,7 +422,7 @@ WorkoutState _mobilityWorkfitWorkoutListSuccessActionCreator(WorkoutState state,
   }
 }
 
-WorkoutState _strengthPushPullWorkoutListSuccessActionCreator(WorkoutState state, StrengthPushPullWorkoutListSuccessActionCreator action) {  
+HomeFitWorkoutState _strengthPushPullWorkoutListSuccessActionCreator(HomeFitWorkoutState state, StrengthPushPullWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       strengthPushPullWorkouts: action.workouts,
@@ -436,7 +436,7 @@ WorkoutState _strengthPushPullWorkoutListSuccessActionCreator(WorkoutState state
   }
 }
 
-WorkoutState _strengthLiftingCarryingWorkoutListSuccessActionCreator(WorkoutState state, StrengthLiftingCarryingWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _strengthLiftingCarryingWorkoutListSuccessActionCreator(HomeFitWorkoutState state, StrengthLiftingCarryingWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       strengthLiftingCarryingWorkouts: action.workouts,
@@ -450,7 +450,7 @@ WorkoutState _strengthLiftingCarryingWorkoutListSuccessActionCreator(WorkoutStat
   }  
 }
 
-WorkoutState _strengthGrand2StandWorkoutListSuccessActionCreator(WorkoutState state, StrengthGrand2StandWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _strengthGrand2StandWorkoutListSuccessActionCreator(HomeFitWorkoutState state, StrengthGrand2StandWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       strengthGrand2StandWorkouts: action.workouts,
@@ -464,7 +464,7 @@ WorkoutState _strengthGrand2StandWorkoutListSuccessActionCreator(WorkoutState st
   }  
 }
   
-WorkoutState _strengthRotationalStrengthWorkoutListSuccessActionCreator(WorkoutState state, StrengthRotationalStrengthWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _strengthRotationalStrengthWorkoutListSuccessActionCreator(HomeFitWorkoutState state, StrengthRotationalStrengthWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       strengthRotationalStrengthWorkouts: action.workouts,
@@ -478,7 +478,7 @@ WorkoutState _strengthRotationalStrengthWorkoutListSuccessActionCreator(WorkoutS
   }  
 }
 
-WorkoutState _strengthKidsfitWorkoutListSuccessActionCreator(WorkoutState state, StrengthKidsfitWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _strengthKidsfitWorkoutListSuccessActionCreator(HomeFitWorkoutState state, StrengthKidsfitWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       strengthKidsFitWorkouts: action.workouts,
@@ -492,7 +492,7 @@ WorkoutState _strengthKidsfitWorkoutListSuccessActionCreator(WorkoutState state,
   }    
 }
 
-WorkoutState _strengthWorkfitWorkoutListSuccessActionCreator(WorkoutState state, StrengthWorkfitWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _strengthWorkfitWorkoutListSuccessActionCreator(HomeFitWorkoutState state, StrengthWorkfitWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       strengthWorkFitWorkouts: action.workouts,
@@ -507,7 +507,7 @@ WorkoutState _strengthWorkfitWorkoutListSuccessActionCreator(WorkoutState state,
 }
 
 
-WorkoutState _metabolicHiitWorkoutListSuccessActionCreator(WorkoutState state, MetabolicHiitWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _metabolicHiitWorkoutListSuccessActionCreator(HomeFitWorkoutState state, MetabolicHiitWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       metabolicHIITWorkouts: action.workouts,
@@ -521,7 +521,7 @@ WorkoutState _metabolicHiitWorkoutListSuccessActionCreator(WorkoutState state, M
   }    
 }
 
-WorkoutState _metabolicHiisWorkoutListSuccessActionCreator(WorkoutState state, MetabolicHiisWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _metabolicHiisWorkoutListSuccessActionCreator(HomeFitWorkoutState state, MetabolicHiisWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       metabolicHIISWorkouts: action.workouts,
@@ -535,7 +535,7 @@ WorkoutState _metabolicHiisWorkoutListSuccessActionCreator(WorkoutState state, M
   }    
 }
 
-WorkoutState _metabolicSissWorkoutListSuccessActionCreator(WorkoutState state, MetabolicSissWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _metabolicSissWorkoutListSuccessActionCreator(HomeFitWorkoutState state, MetabolicSissWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       metabolicSISSWorkouts: action.workouts,
@@ -549,7 +549,7 @@ WorkoutState _metabolicSissWorkoutListSuccessActionCreator(WorkoutState state, M
   }    
 }
 
-WorkoutState _metabolicKidsfitWorkoutListSuccessActionCreator(WorkoutState state, MetabolicKidsfitWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _metabolicKidsfitWorkoutListSuccessActionCreator(HomeFitWorkoutState state, MetabolicKidsfitWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       metabolicKidsFitWorkouts: action.workouts,
@@ -563,7 +563,7 @@ WorkoutState _metabolicKidsfitWorkoutListSuccessActionCreator(WorkoutState state
   }      
 }
 
-WorkoutState _powerAccelerationDecelerationWorkoutListSuccessActionCreator(WorkoutState state, PowerAccelerationDecelerationWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _powerAccelerationDecelerationWorkoutListSuccessActionCreator(HomeFitWorkoutState state, PowerAccelerationDecelerationWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       powerAccelerationDecelerationWorkouts: action.workouts,
@@ -577,7 +577,7 @@ WorkoutState _powerAccelerationDecelerationWorkoutListSuccessActionCreator(Worko
   }        
 }
 
-WorkoutState _powerSpeedReactionWorkoutListSuccessActionCreator(WorkoutState state, PowerSpeedReactionWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _powerSpeedReactionWorkoutListSuccessActionCreator(HomeFitWorkoutState state, PowerSpeedReactionWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       powerSpeedReactionWorkouts: action.workouts,
@@ -591,7 +591,7 @@ WorkoutState _powerSpeedReactionWorkoutListSuccessActionCreator(WorkoutState sta
   }        
 }
 
-WorkoutState _powerMaxPowerWorkoutListSuccessActionCreator(WorkoutState state, PowerMaxPowerWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _powerMaxPowerWorkoutListSuccessActionCreator(HomeFitWorkoutState state, PowerMaxPowerWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       powerMaxPowerWorkouts: action.workouts,
@@ -605,7 +605,7 @@ WorkoutState _powerMaxPowerWorkoutListSuccessActionCreator(WorkoutState state, P
   }        
 }
 
-WorkoutState _powerPylometricsWorkoutListSuccessActionCreator(WorkoutState state, PowerPylometricsWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _powerPylometricsWorkoutListSuccessActionCreator(HomeFitWorkoutState state, PowerPylometricsWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       powerPlyometricsWorkouts: action.workouts,
@@ -619,7 +619,7 @@ WorkoutState _powerPylometricsWorkoutListSuccessActionCreator(WorkoutState state
   }        
 }
 
-WorkoutState _powerKidsfitWorkoutListSuccessActionCreator(WorkoutState state, PowerKidsfitWorkoutListSuccessActionCreator action) {
+HomeFitWorkoutState _powerKidsfitWorkoutListSuccessActionCreator(HomeFitWorkoutState state, PowerKidsfitWorkoutListSuccessActionCreator action) {
   if(action.paginateInfo["page"] == 0) {
     return _getCopy(state).copyWith(
       powerKidsFitWorkouts: action.workouts,

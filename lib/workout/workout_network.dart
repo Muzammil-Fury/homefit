@@ -12,10 +12,10 @@ const PACKAGE_VERSION = "1";
 Function getWorkoutList(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/move_videos_list", params);
+    Map responseData = await homefitPost(context, "dhfmove/move_videos_list", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
-        new WorkoutListSuccessActionCreator(
+        new homeFitWorkoutListSuccessActionCreator(
           Utils.parseList(responseData, "move_videos"),
           responseData["paginate_info"],
           responseData["favorite_list"],
@@ -29,10 +29,10 @@ Function getWorkoutList(BuildContext context, Map params) {
 Function getWorkout(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/client_move_video_get", params);
+    Map responseData = await homefitPost(context, "dhfmove/client_move_video_get", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
-        new WorkoutGetSuccessActionCreator(
+        new homeFitWorkoutGetSuccessActionCreator(
           responseData["move_video"],
           responseData["is_favorite"]
         )
@@ -44,7 +44,7 @@ Function getWorkout(BuildContext context, Map params) {
 Function toggleWorkoutFavorite(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/move_toggle_favorite", params);
+    Map responseData = await homefitPost(context, "dhfmove/move_toggle_favorite", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new WorkoutFavoriteToggleActionCreator(
@@ -59,7 +59,7 @@ Function toggleWorkoutFavorite(BuildContext context, Map params) {
 Function getMobilityWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_mobility_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_mobility_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new MobilityWorkoutListSuccessActionCreator(
@@ -74,7 +74,7 @@ Function getMobilityWorkouts(BuildContext context, Map params) {
 Function getStrengthWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_strength_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_strength_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new StrengthWorkoutListSuccessActionCreator(
@@ -89,7 +89,7 @@ Function getStrengthWorkouts(BuildContext context, Map params) {
 Function getMetabolicWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_metabolic_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_metabolic_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new MetabolicWorkoutListSuccessActionCreator(
@@ -104,7 +104,7 @@ Function getMetabolicWorkouts(BuildContext context, Map params) {
 Function getPowerWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_power_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_power_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new PowerWorkoutListSuccessActionCreator(
@@ -119,7 +119,7 @@ Function getPowerWorkouts(BuildContext context, Map params) {
 Function getMobilityResilienceWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_mobility_resilience_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_mobility_resilience_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new MobilityResilienceWorkoutListSuccessActionCreator(
@@ -134,7 +134,7 @@ Function getMobilityResilienceWorkouts(BuildContext context, Map params) {
 Function getMobilityFluidityWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_mobility_fluidity_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_mobility_fluidity_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new MobilityFluidityWorkoutListSuccessActionCreator(
@@ -149,7 +149,7 @@ Function getMobilityFluidityWorkouts(BuildContext context, Map params) {
 Function getMobilityActivationWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_mobility_activation_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_mobility_activation_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new MobilityActivationWorkoutListSuccessActionCreator(
@@ -164,7 +164,7 @@ Function getMobilityActivationWorkouts(BuildContext context, Map params) {
 Function getMobilityKidsfitWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_mobility_kidsfit_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_mobility_kidsfit_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new MobilityKidsfitWorkoutListSuccessActionCreator(
@@ -179,7 +179,7 @@ Function getMobilityKidsfitWorkouts(BuildContext context, Map params) {
 Function getMobilityWorkfitWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_mobility_workfit_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_mobility_workfit_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new MobilityWorkfitWorkoutListSuccessActionCreator(
@@ -194,7 +194,7 @@ Function getMobilityWorkfitWorkouts(BuildContext context, Map params) {
 Function getStrengthPushPullWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_strength_pushpull_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_strength_pushpull_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new StrengthPushPullWorkoutListSuccessActionCreator(
@@ -209,7 +209,7 @@ Function getStrengthPushPullWorkouts(BuildContext context, Map params) {
 Function getStrengthLiftingCarryingWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_strength_liftingcarrying_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_strength_liftingcarrying_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new StrengthLiftingCarryingWorkoutListSuccessActionCreator(
@@ -224,7 +224,7 @@ Function getStrengthLiftingCarryingWorkouts(BuildContext context, Map params) {
 Function getStrengthGrand2StandWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_strength_grand2stand_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_strength_grand2stand_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new StrengthGrand2StandWorkoutListSuccessActionCreator(
@@ -239,7 +239,7 @@ Function getStrengthGrand2StandWorkouts(BuildContext context, Map params) {
 Function getStrengthRotationalStrengthWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_strength_rotationalstrength_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_strength_rotationalstrength_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new StrengthRotationalStrengthWorkoutListSuccessActionCreator(
@@ -255,7 +255,7 @@ Function getStrengthRotationalStrengthWorkouts(BuildContext context, Map params)
 Function getStrengthKidsfitWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_strength_kidsfit_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_strength_kidsfit_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new StrengthKidsfitWorkoutListSuccessActionCreator(
@@ -270,7 +270,7 @@ Function getStrengthKidsfitWorkouts(BuildContext context, Map params) {
 Function getStrengthWorkfitWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_strength_workfit_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_strength_workfit_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new StrengthWorkfitWorkoutListSuccessActionCreator(
@@ -285,7 +285,7 @@ Function getStrengthWorkfitWorkouts(BuildContext context, Map params) {
 Function getMetabolicHiitWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_metabolic_hiit_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_metabolic_hiit_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new MetabolicHiitWorkoutListSuccessActionCreator(
@@ -300,7 +300,7 @@ Function getMetabolicHiitWorkouts(BuildContext context, Map params) {
 Function getMetabolicHiisWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_metabolic_hiis_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_metabolic_hiis_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new MetabolicHiisWorkoutListSuccessActionCreator(
@@ -315,7 +315,7 @@ Function getMetabolicHiisWorkouts(BuildContext context, Map params) {
 Function getMetabolicSissWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_metabolic_siss_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_metabolic_siss_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new MetabolicSissWorkoutListSuccessActionCreator(
@@ -330,7 +330,7 @@ Function getMetabolicSissWorkouts(BuildContext context, Map params) {
 Function getMetabolicKidsfitWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_metabolic_kidsfit_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_metabolic_kidsfit_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new MetabolicKidsfitWorkoutListSuccessActionCreator(
@@ -345,7 +345,7 @@ Function getMetabolicKidsfitWorkouts(BuildContext context, Map params) {
 Function getPowerAccelerationDecelerationWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_power_accelerationdeceleration_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_power_accelerationdeceleration_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new PowerAccelerationDecelerationWorkoutListSuccessActionCreator(
@@ -360,7 +360,7 @@ Function getPowerAccelerationDecelerationWorkouts(BuildContext context, Map para
 Function getPowerSpeedReactionWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_power_speedreaction_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_power_speedreaction_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new PowerSpeedReactionWorkoutListSuccessActionCreator(
@@ -375,7 +375,7 @@ Function getPowerSpeedReactionWorkouts(BuildContext context, Map params) {
 Function getPowerMaxPowerWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_power_maxpower_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_power_maxpower_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new PowerMaxPowerWorkoutListSuccessActionCreator(
@@ -390,7 +390,7 @@ Function getPowerMaxPowerWorkouts(BuildContext context, Map params) {
 Function getPowerPlyometricsReactionWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_power_plyometrics_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_power_plyometrics_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new PowerPylometricsWorkoutListSuccessActionCreator(
@@ -405,7 +405,7 @@ Function getPowerPlyometricsReactionWorkouts(BuildContext context, Map params) {
 Function getPowerKidsfitReactionWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_power_kidsfit_workouts", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_power_kidsfit_workouts", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new PowerKidsfitWorkoutListSuccessActionCreator(

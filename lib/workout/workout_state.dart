@@ -1,7 +1,7 @@
 import 'package:meta/meta.dart';
 
 @immutable
-class WorkoutState {
+class HomeFitWorkoutState {
 
   final List<Map> recommendedWorkouts;
   final List<Map> workouts;
@@ -73,7 +73,7 @@ class WorkoutState {
   final List<Map> powerKidsFitWorkouts;
   final Map powerKidsFitPaginateInfo;
 
-  const WorkoutState({
+  const HomeFitWorkoutState({
     this.recommendedWorkouts,
     this.workouts,
     this.workout,
@@ -146,7 +146,7 @@ class WorkoutState {
 
   });
 
-  WorkoutState copyWith({
+  HomeFitWorkoutState copyWith({
     List<Map> recommendedWorkouts,
     List<Map> workouts,
     Map workout,
@@ -218,7 +218,7 @@ class WorkoutState {
     Map powerKidsFitPaginateInfo,
 
   }) {
-    return new WorkoutState(
+    return new HomeFitWorkoutState(
       recommendedWorkouts: recommendedWorkouts ?? this.recommendedWorkouts,
       workouts: workouts ?? this.workouts,
       workout: workout ?? this.workout,

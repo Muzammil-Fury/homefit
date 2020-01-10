@@ -727,32 +727,32 @@ class _WorkoutsMobilityState extends State<_WorkoutsMobility> {
           store.dispatch(getMobilityWorkfitWorkouts(context, params));
         
         returnObject["user"] = store.state.homeState.user;
-        returnObject["mobilityResilienceWorkouts"] = store.state.workoutState.mobilityResilienceWorkouts;
-        returnObject["mobilityResiliencePaginateInfo"] = store.state.workoutState.mobilityResiliencePaginateInfo;
-        returnObject["mobilityFluidityWorkouts"] = store.state.workoutState.mobilityFluidityWorkouts;
-        returnObject["mobilityFluidityPaginateInfo"] = store.state.workoutState.mobilityFluidityPaginateInfo;
-        returnObject["mobilityActivationWorkouts"] = store.state.workoutState.mobilityActivationWorkouts;
-        returnObject["mobilityActivationPaginateInfo"] = store.state.workoutState.mobilityActivationPaginateInfo;
-        returnObject["mobilityKidsFitWorkouts"] = store.state.workoutState.mobilityKidsFitWorkouts;
-        returnObject["mobilityKidsFitPaginateInfo"] = store.state.workoutState.mobilityKidsFitPaginateInfo;
-        returnObject["mobilityWorkFitWorkouts"] = store.state.workoutState.mobilityWorkFitWorkouts;        
-        returnObject["mobilityWorkFitPaginateInfo"] = store.state.workoutState.mobilityWorkFitPaginateInfo;        
+        returnObject["mobilityResilienceWorkouts"] = store.state.homeFitWorkoutState.mobilityResilienceWorkouts;
+        returnObject["mobilityResiliencePaginateInfo"] = store.state.homeFitWorkoutState.mobilityResiliencePaginateInfo;
+        returnObject["mobilityFluidityWorkouts"] = store.state.homeFitWorkoutState.mobilityFluidityWorkouts;
+        returnObject["mobilityFluidityPaginateInfo"] = store.state.homeFitWorkoutState.mobilityFluidityPaginateInfo;
+        returnObject["mobilityActivationWorkouts"] = store.state.homeFitWorkoutState.mobilityActivationWorkouts;
+        returnObject["mobilityActivationPaginateInfo"] = store.state.homeFitWorkoutState.mobilityActivationPaginateInfo;
+        returnObject["mobilityKidsFitWorkouts"] = store.state.homeFitWorkoutState.mobilityKidsFitWorkouts;
+        returnObject["mobilityKidsFitPaginateInfo"] = store.state.homeFitWorkoutState.mobilityKidsFitPaginateInfo;
+        returnObject["mobilityWorkFitWorkouts"] = store.state.homeFitWorkoutState.mobilityWorkFitWorkouts;
+        returnObject["mobilityWorkFitPaginateInfo"] = store.state.homeFitWorkoutState.mobilityWorkFitPaginateInfo;
         
-        returnObject["isValidHomeFitSubscription"] = store.state.workoutState.isValidHomeFitSubscription;
-        returnObject["filterMovementMeter"] = store.state.workoutState.movementMeterFilter;
-        returnObject["filterEquipmentBodyweight"] = store.state.workoutState.equipmentBodyweight;
-        returnObject["filterEquipmentDumbbell"] = store.state.workoutState.equipmentDumbbell;
-        returnObject["filterEquipmentKettlebell"] = store.state.workoutState.equipmentKettlebell;
-        returnObject["filterEquipmentPowerplate"] = store.state.workoutState.equipmentPowerPlate;
-        returnObject["filterEquipmentFoamroller"] = store.state.workoutState.equipmentFoamRoller;
-        returnObject["filterEquipmentBand"] = store.state.workoutState.equipmentBands;
-        returnObject["filterEquipmentBosu"] = store.state.workoutState.equipmentBosu;
-        returnObject["filterEquipmentRockblade"] = store.state.workoutState.equipmentRockblade;
-        returnObject["filterWorkoutType"] = store.state.workoutState.workoutType;
-        returnObject["filterWorkoutDuration"] = store.state.workoutState.workoutDuration;
-        returnObject["filterWorkoutFitness"] = store.state.workoutState.workoutFitnessLevel;
-        returnObject["filterWorkoutSports"] = store.state.workoutState.workoutSports;
-        returnObject["filterFavoriteEnabled"] = store.state.workoutState.favoriteEnabled;
+        returnObject["isValidHomeFitSubscription"] = store.state.homeFitWorkoutState.isValidHomeFitSubscription;
+        returnObject["filterMovementMeter"] = store.state.homeFitWorkoutState.movementMeterFilter;
+        returnObject["filterEquipmentBodyweight"] = store.state.homeFitWorkoutState.equipmentBodyweight;
+        returnObject["filterEquipmentDumbbell"] = store.state.homeFitWorkoutState.equipmentDumbbell;
+        returnObject["filterEquipmentKettlebell"] = store.state.homeFitWorkoutState.equipmentKettlebell;
+        returnObject["filterEquipmentPowerplate"] = store.state.homeFitWorkoutState.equipmentPowerPlate;
+        returnObject["filterEquipmentFoamroller"] = store.state.homeFitWorkoutState.equipmentFoamRoller;
+        returnObject["filterEquipmentBand"] = store.state.homeFitWorkoutState.equipmentBands;
+        returnObject["filterEquipmentBosu"] = store.state.homeFitWorkoutState.equipmentBosu;
+        returnObject["filterEquipmentRockblade"] = store.state.homeFitWorkoutState.equipmentRockblade;
+        returnObject["filterWorkoutType"] = store.state.homeFitWorkoutState.workoutType;
+        returnObject["filterWorkoutDuration"] = store.state.homeFitWorkoutState.workoutDuration;
+        returnObject["filterWorkoutFitness"] = store.state.homeFitWorkoutState.workoutFitnessLevel;
+        returnObject["filterWorkoutSports"] = store.state.homeFitWorkoutState.workoutSports;
+        returnObject["filterFavoriteEnabled"] = store.state.homeFitWorkoutState.favoriteEnabled;
         return returnObject;
       },
       builder: (BuildContext context, Map stateObject) {

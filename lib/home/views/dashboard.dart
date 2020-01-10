@@ -948,7 +948,7 @@ class _DashboardState extends State<_Dashboard> {
         returnObject["welcomeVideoURL"] = store.state.homeState.welcomeVideoURL;
         returnObject["welcomeVideoThumbnailURL"] = store.state.homeState.welcomeVideoThumbnailURL;
         returnObject["user"] = store.state.homeState.user;
-        returnObject["workouts"] = store.state.workoutState.recommendedWorkouts;
+        returnObject["workouts"] = store.state.homeFitWorkoutState.recommendedWorkouts;
         returnObject["currentWeekMovementMeters"] = store.state.homeState.currentWeekMovementPoints;
         returnObject["newWorkouts"] = store.state.homeState.newWorkouts;
         returnObject["favoriteWorkouts"] = store.state.homeState.favoriteWorkouts;

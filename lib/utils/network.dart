@@ -11,7 +11,7 @@ import 'package:homefit/utils/utils.dart';
 typedef void Success(Map response);
 typedef void Failure(dynamic error);
 
-Future<Map<String, dynamic>> post(BuildContext context, String url, Map params,
+Future<Map<String, dynamic>> homefitPost(BuildContext context, String url, Map params,
     {showLoading = true}) async {
   var progress = new ProgressHUD(    
     backgroundColor: Colors.transparent,

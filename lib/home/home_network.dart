@@ -16,7 +16,7 @@ const USER_PACKAGE_VERSION = "1";
 Function verifyEmail(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/dhf_move_verify_email", params);
+    Map responseData = await homefitPost(context, "dhfmove/dhf_move_verify_email", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new VerifyEmailSuccessActionCreator(
@@ -31,7 +31,7 @@ Function verifyEmail(BuildContext context, Map params) {
 Function login(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/dhf_move_login", params);
+    Map responseData = await homefitPost(context, "dhfmove/dhf_move_login", params);
     if (responseData != null && responseData['status'] == "200") {      
       token = responseData["token"];
       Preferences.setAccessToken(responseData["token"]);
@@ -49,7 +49,7 @@ Function login(BuildContext context, Map params) {
 Function homefitVerifyUser(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/dhf_move_verify_user", params);
+    Map responseData = await homefitPost(context, "dhfmove/dhf_move_verify_user", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new VerifyUserActionCreator(
@@ -68,7 +68,7 @@ Function homefitVerifyUser(BuildContext context, Map params) {
 Function getDashboardDetails(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/dhf_move_get_home_details", params);
+    Map responseData = await homefitPost(context, "dhfmove/dhf_move_get_home_details", params);
     if (responseData != null && responseData['status'] == "200") {      
       if(token == "" || token == null) {
         store.dispatch(
@@ -111,7 +111,7 @@ Function getDashboardDetails(BuildContext context, Map params) {
 Function trackActivities(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/dhf_move_activity_done", params);
+    Map responseData = await homefitPost(context, "dhfmove/dhf_move_activity_done", params);
     if (responseData != null && responseData['status'] == "200") {      
       store.dispatch(
         new DashboardDetailsMovementMeterSuccessActionCreator(
@@ -126,7 +126,7 @@ Function trackActivities(BuildContext context, Map params) {
 Function savePlanAndTransactionReceipt(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/dhf_move_save_user_plan_id", params);
+    Map responseData = await homefitPost(context, "dhfmove/dhf_move_save_user_plan_id", params);
     if (responseData != null && responseData['status'] == "200") {            
       Navigator.of(context).pushReplacementNamed("/dashboard"); 
     }
@@ -136,7 +136,7 @@ Function savePlanAndTransactionReceipt(BuildContext context, Map params) {
 Function getFamilyPlanMembers(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/move_get_family_members", params);
+    Map responseData = await homefitPost(context, "dhfmove/move_get_family_members", params);
     if (responseData != null && responseData['status'] == "200") {   
       store.dispatch(
         new FamilyPlanMemberListSuccessActionCreator(
@@ -150,7 +150,7 @@ Function getFamilyPlanMembers(BuildContext context, Map params) {
 Function inviteFamilyMember(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/move_add_family_member", params);
+    Map responseData = await homefitPost(context, "dhfmove/move_add_family_member", params);
     if (responseData != null && responseData['status'] == "200") {
 
     }
@@ -160,7 +160,7 @@ Function inviteFamilyMember(BuildContext context, Map params) {
 Function deleteFamilyMember(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/move_remove_family_members", params);
+    Map responseData = await homefitPost(context, "dhfmove/move_remove_family_members", params);
     if (responseData != null && responseData['status'] == "200") {
       getFamilyPlanMembers(context, {});         
     }
@@ -170,7 +170,7 @@ Function deleteFamilyMember(BuildContext context, Map params) {
 Function changePassword(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = USER_PACKAGE_VERSION;
-    Map responseData = await post(context, "user/user_password_update", params);
+    Map responseData = await homefitPost(context, "user/user_password_update", params);
     if (responseData != null && responseData['status'] == "200") {   
       Utils.alertDialog(context, "Success", "Your password has been updated. Please login once again.");      
     }
@@ -180,7 +180,7 @@ Function changePassword(BuildContext context, Map params) {
 Function updateName(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = USER_PACKAGE_VERSION;
-    Map responseData = await post(context, "user/user_profile_post", params);
+    Map responseData = await homefitPost(context, "user/user_profile_post", params);
     if (responseData != null && responseData['status'] == "200") {   
       Utils.alertDialog(context, "Success", "Your name has been updated successfully");      
     }
@@ -190,7 +190,7 @@ Function updateName(BuildContext context, Map params) {
 Function updateMovementMeterSettings(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = USER_PACKAGE_VERSION;
-    Map responseData = await post(context, "user/user_movement_meter_configuration_post", params);
+    Map responseData = await homefitPost(context, "user/user_movement_meter_configuration_post", params);
     if (responseData != null && responseData['status'] == "200") {  
       store.dispatch(
         new UpdateUserMovementMeterSettingsActionCreator(
@@ -205,7 +205,7 @@ Function updateMovementMeterSettings(BuildContext context, Map params) {
 Function userSignout(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = AUTH_PACKAGE_VERSION;
-    Map responseData = await post(context, "authorize/user_logout", params);
+    Map responseData = await homefitPost(context, "authorize/user_logout", params);
     if (responseData != null) {
       Utils.userSignout();
       Navigator.of(context).pushReplacementNamed("/splash");
@@ -216,7 +216,7 @@ Function userSignout(BuildContext context, Map params) {
 Function subscribeStripePayment(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/dhf_move_stripe_subscribe", params);
+    Map responseData = await homefitPost(context, "dhfmove/dhf_move_stripe_subscribe", params);
     if (responseData != null) {
       Navigator.of(context).pushReplacementNamed("/dashboard"); 
     }
@@ -226,7 +226,7 @@ Function subscribeStripePayment(BuildContext context, Map params) {
 Function unSubscribeStripePayment(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/dhf_move_stripe_unsubscribe", params);
+    Map responseData = await homefitPost(context, "dhfmove/dhf_move_stripe_unsubscribe", params);
     if (responseData != null) {
       Navigator.of(context).pushReplacementNamed("/dashboard"); 
     }
@@ -236,7 +236,7 @@ Function unSubscribeStripePayment(BuildContext context, Map params) {
 Function getDashboardNewWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_workouts_new", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_workouts_new", params);
     if (responseData != null) {
       store.dispatch(
         new DashboardNewWorkoutsSuccess(
@@ -250,7 +250,7 @@ Function getDashboardNewWorkouts(BuildContext context, Map params) {
 Function getDashboardFavoriteWorkouts(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "dhfmove/homefit_workouts_favorite", params);
+    Map responseData = await homefitPost(context, "dhfmove/homefit_workouts_favorite", params);
     if (responseData != null) {
       store.dispatch(
         new DashboardFavoriteWorkoutsSuccess(

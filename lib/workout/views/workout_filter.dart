@@ -1568,21 +1568,21 @@ class _WorkoutFilterState extends State<_WorkoutFilter> {
         returnObject["filterFavoriteActionCreator"] = (bool favoriteEnabled) =>
           store.dispatch(FilterFavoriteActionCreator(favoriteEnabled)
         );           
-        returnObject["movementMeterFilter"] = store.state.workoutState.movementMeterFilter;
-        returnObject["equipmentBodyWeight"] = store.state.workoutState.equipmentBodyweight;
-        returnObject["equipmentDumbbell"] = store.state.workoutState.equipmentDumbbell;
-        returnObject["equipmentKettlebell"] = store.state.workoutState.equipmentKettlebell;
-        returnObject["equipmentPowerplate"] = store.state.workoutState.equipmentPowerPlate;
-        returnObject["equipmentFoamroller"] = store.state.workoutState.equipmentFoamRoller;
-        returnObject["equipmentBand"] = store.state.workoutState.equipmentBands;
-        returnObject["equipmentBosu"] = store.state.workoutState.equipmentBosu;
-        returnObject["equipmentRockblade"] = store.state.workoutState.equipmentRockblade;
-        returnObject["workoutType"] = store.state.workoutState.workoutType;
-        returnObject["workoutDuration"] = store.state.workoutState.workoutDuration;
-        returnObject["workoutFitnessLevel"] = store.state.workoutState.workoutFitnessLevel;
-        returnObject["workoutSports"] = store.state.workoutState.workoutSports;
+        returnObject["movementMeterFilter"] = store.state.homeFitWorkoutState.movementMeterFilter;
+        returnObject["equipmentBodyWeight"] = store.state.homeFitWorkoutState.equipmentBodyweight;
+        returnObject["equipmentDumbbell"] = store.state.homeFitWorkoutState.equipmentDumbbell;
+        returnObject["equipmentKettlebell"] = store.state.homeFitWorkoutState.equipmentKettlebell;
+        returnObject["equipmentPowerplate"] = store.state.homeFitWorkoutState.equipmentPowerPlate;
+        returnObject["equipmentFoamroller"] = store.state.homeFitWorkoutState.equipmentFoamRoller;
+        returnObject["equipmentBand"] = store.state.homeFitWorkoutState.equipmentBands;
+        returnObject["equipmentBosu"] = store.state.homeFitWorkoutState.equipmentBosu;
+        returnObject["equipmentRockblade"] = store.state.homeFitWorkoutState.equipmentRockblade;
+        returnObject["workoutType"] = store.state.homeFitWorkoutState.workoutType;
+        returnObject["workoutDuration"] = store.state.homeFitWorkoutState.workoutDuration;
+        returnObject["workoutFitnessLevel"] = store.state.homeFitWorkoutState.workoutFitnessLevel;
+        returnObject["workoutSports"] = store.state.homeFitWorkoutState.workoutSports;
         returnObject["availableSports"] = store.state.homeState.availableSports;        
-        returnObject["favoriteEnabled"] = store.state.workoutState.favoriteEnabled;
+        returnObject["favoriteEnabled"] = store.state.homeFitWorkoutState.favoriteEnabled;
         return returnObject;
       },
       builder: (BuildContext context, Map stateObject) {

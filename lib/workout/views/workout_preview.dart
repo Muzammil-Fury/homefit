@@ -678,7 +678,7 @@ class _WorkoutPreviewState extends State<_WorkoutPreview> {
       onInitialBuild: (Map stateObject) {
         _getWorkout = stateObject["getWorkout"];
         _toggleWorkoutFavorite = stateObject["toggleWorkoutFavorite"];
-        _workoutGetSuccessActionCreator = stateObject["workoutGetSuccessActionCreator"];
+        _workoutGetSuccessActionCreator = stateObject["homeFitWorkoutGetSuccessActionCreator"];
         var params = new Map();
         params['move_video_id'] = widget.workoutId;
         _getWorkout(context, params);
@@ -689,11 +689,11 @@ class _WorkoutPreviewState extends State<_WorkoutPreview> {
           store.dispatch(getWorkout(context, params));       
         returnObject["toggleWorkoutFavorite"] = (BuildContext context, Map params) =>
           store.dispatch(toggleWorkoutFavorite(context, params)); 
-        returnObject["workoutGetSuccessActionCreator"] = (Map workout, bool isFavorite) =>
-          store.dispatch(WorkoutGetSuccessActionCreator(workout, isFavorite)
+        returnObject["homeFitWorkoutGetSuccessActionCreator"] = (Map workout, bool isFavorite) =>
+          store.dispatch(homeFitWorkoutGetSuccessActionCreator(workout, isFavorite)
         );                 
-        returnObject["workout"] = store.state.workoutState.workout;
-        returnObject["isFavorite"] = store.state.workoutState.isFavoriteWorkout;
+        returnObject["workout"] = store.state.homeFitWorkoutState.workout;
+        returnObject["isFavorite"] = store.state.homeFitWorkoutState.isFavoriteWorkout;
         return returnObject;
       },
       builder: (BuildContext context, Map stateObject) {

@@ -13,7 +13,7 @@ const PACKAGE_VERSION = "1";
 Function changePassword(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "user/user_password_update", params);
+    Map responseData = await homefitPost(context, "user/user_password_update", params);
     if (responseData != null && responseData['status'] == "200") {   
       await Utils.alertDialog(
         context, 
@@ -29,7 +29,7 @@ Function changePassword(BuildContext context, Map params) {
 Function getUserProfileDetails(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "user/user_profile_get", params);
+    Map responseData = await homefitPost(context, "user/user_profile_get", params);
     if(responseData != null) {
       store.dispatch(
         new FetchUserProfileDetailsActionCreator(
@@ -46,7 +46,7 @@ Function getUserProfileDetails(BuildContext context, Map params) {
 Function updateUserProfileDetails(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "user/user_profile_post", params);
+    Map responseData = await homefitPost(context, "user/user_profile_post", params);
     if (responseData != null && responseData['status'] == "200") {      
       Utils.alertDialog(context, "Success", "Your name has been updated successfully");      
     }
@@ -56,7 +56,7 @@ Function updateUserProfileDetails(BuildContext context, Map params) {
 Function getUserMovementMeterSettings(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "user/user_movement_meter_configuration_get", params);
+    Map responseData = await homefitPost(context, "user/user_movement_meter_configuration_get", params);
     if (responseData != null && responseData['status'] == "200") {
       store.dispatch(
         new MovementMeterSettingsFetchActionCreator(
@@ -71,7 +71,7 @@ Function getUserMovementMeterSettings(BuildContext context, Map params) {
 Function updateMovementMeterSettings(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "user/user_movement_meter_configuration_post", params);
+    Map responseData = await homefitPost(context, "user/user_movement_meter_configuration_post", params);
     if (responseData != null && responseData['status'] == "200") {  
       store.dispatch(
         new UpdateUserMovementMeterSettingsActionCreator(
@@ -86,7 +86,7 @@ Function updateMovementMeterSettings(BuildContext context, Map params) {
 Function addActivity(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "user/update_user_movement_details", params);
+    Map responseData = await homefitPost(context, "user/update_user_movement_details", params);
     if (responseData != null) {
       store.dispatch(new DashboardDetailsMovementMeterSuccessActionCreator(
         responseData["current_week_movement_points"]
@@ -98,7 +98,7 @@ Function addActivity(BuildContext context, Map params) {
 Function getUserMovementMeterWeeklyGraph(BuildContext context, Map params) {
   return (Store<AppState> store) async {
     params["package_version"] = PACKAGE_VERSION;
-    Map responseData = await post(context, "user/user_movement_meter_weekly_graph", params);
+    Map responseData = await homefitPost(context, "user/user_movement_meter_weekly_graph", params);
     if (responseData != null && responseData['status'] == "200") {  
       store.dispatch(
         new UserMovementMeterWeeklyGraph(
