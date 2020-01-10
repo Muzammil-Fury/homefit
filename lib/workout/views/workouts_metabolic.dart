@@ -649,7 +649,7 @@ class _WorkoutsMetabolicState extends State<_WorkoutsMetabolic> {
         returnObject["getMetabolicKidsfitWorkouts"] = (BuildContext context, Map params) =>
           store.dispatch(getMetabolicKidsfitWorkouts(context, params));        
         
-        returnObject["user"] = store.state.homeState.user;
+        returnObject["user"] = store.state.homeFitHomeState.user;
         returnObject["metabolicHIITWorkouts"] = store.state.workoutState.metabolicHIITWorkouts;
         returnObject["metabolicHIISWorkouts"] = store.state.workoutState.metabolicHIISWorkouts;
         returnObject["metabolicSISSWorkouts"] = store.state.workoutState.metabolicSISSWorkouts;

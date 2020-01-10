@@ -93,7 +93,7 @@ class UserEditProfileState extends State<_UserEditProfile> {
       },
       converter: (Store<AppState> store) {
         Map<String, dynamic> returnObject = new Map();
-        returnObject["user_id"] = store.state.homeState.user["id"];
+        returnObject["user_id"] = store.state.homeFitHomeState.user["id"];
         returnObject["user"] = store.state.userState.user;
         returnObject["saveProfile"] = (BuildContext context, Map params) =>
             store.dispatch(updateUserProfileDetails(context, params));

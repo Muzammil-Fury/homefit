@@ -945,13 +945,13 @@ class _DashboardState extends State<_Dashboard> {
           store.dispatch(getDashboardNewWorkouts(context, params));    
         returnObject["getDashboardFavoriteWorkouts"] = (BuildContext context, Map params) =>
           store.dispatch(getDashboardFavoriteWorkouts(context, params));    
-        returnObject["welcomeVideoURL"] = store.state.homeState.welcomeVideoURL;
-        returnObject["welcomeVideoThumbnailURL"] = store.state.homeState.welcomeVideoThumbnailURL;
-        returnObject["user"] = store.state.homeState.user;
+        returnObject["welcomeVideoURL"] = store.state.homeFitHomeState.welcomeVideoURL;
+        returnObject["welcomeVideoThumbnailURL"] = store.state.homeFitHomeState.welcomeVideoThumbnailURL;
+        returnObject["user"] = store.state.homeFitHomeState.user;
         returnObject["workouts"] = store.state.workoutState.recommendedWorkouts;
-        returnObject["currentWeekMovementMeters"] = store.state.homeState.currentWeekMovementPoints;
-        returnObject["newWorkouts"] = store.state.homeState.newWorkouts;
-        returnObject["favoriteWorkouts"] = store.state.homeState.favoriteWorkouts;
+        returnObject["currentWeekMovementMeters"] = store.state.homeFitHomeState.currentWeekMovementPoints;
+        returnObject["newWorkouts"] = store.state.homeFitHomeState.newWorkouts;
+        returnObject["favoriteWorkouts"] = store.state.homeFitHomeState.favoriteWorkouts;
         return returnObject;
       },
       builder: (BuildContext context, Map stateObject) {

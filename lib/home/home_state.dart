@@ -1,7 +1,7 @@
 import 'package:meta/meta.dart';
 
 @immutable
-class HomeState {
+class HomeFitHomeState {
 
   final int userEmailExists;
   final String welcomeVideoId;
@@ -17,7 +17,7 @@ class HomeState {
   final List<Map> favoriteWorkouts;
   final Map favoriteWorkoutsPaginateInfo;
 
-  const HomeState({
+  const HomeFitHomeState({     //Only name need to be changed
     this.userEmailExists,
     this.welcomeVideoId,
     this.welcomeVideoURL,
@@ -33,7 +33,7 @@ class HomeState {
     this.favoriteWorkoutsPaginateInfo,
   });
 
-  HomeState copyWith({
+  HomeFitHomeState copyWith({
     int userEmailExists,
     String welcomeVideoId,
     String welcomeVideoURL,
@@ -48,7 +48,7 @@ class HomeState {
     List<Map> favoriteWorkouts,
     Map favoriteWorkoutsPaginateInfo,
   }) {
-    return new HomeState(
+    return new HomeFitHomeState(
       userEmailExists: userEmailExists ?? this.userEmailExists,
       welcomeVideoId: welcomeVideoId ?? this.welcomeVideoId,
       welcomeVideoURL: welcomeVideoURL ?? this.welcomeVideoURL,

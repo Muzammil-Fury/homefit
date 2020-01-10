@@ -739,7 +739,7 @@ class _WorkoutsPowerState extends State<_WorkoutsPower> {
         returnObject["getPowerKidsfitReactionWorkouts"] = (BuildContext context, Map params) =>
           store.dispatch(getPowerKidsfitReactionWorkouts(context, params));        
         
-        returnObject["user"] = store.state.homeState.user;
+        returnObject["user"] = store.state.homeFitHomeState.user;
         returnObject["powerAccelerationDecelerationWorkouts"] = store.state.workoutState.powerAccelerationDecelerationWorkouts;
         returnObject["powerSpeedReactionWorkouts"] = store.state.workoutState.powerSpeedReactionWorkouts;
         returnObject["powerMaxPowerWorkouts"] = store.state.workoutState.powerMaxPowerWorkouts;

@@ -550,8 +550,8 @@ class _PlansState extends State<_Plans> {
         Map<String, dynamic> returnObject = new Map();
         returnObject["userSignout"] = (BuildContext context, Map params) =>
             store.dispatch(userSignout(context, params));
-        returnObject["user"] = store.state.homeState.user;  
-        returnObject["plans"] = store.state.homeState.plans;      
+        returnObject["user"] = store.state.homeFitHomeState.user;  
+        returnObject["plans"] = store.state.homeFitHomeState.plans;      
         return returnObject;
       },
       builder: (BuildContext context, Map stateObject) {    

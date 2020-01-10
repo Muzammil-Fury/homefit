@@ -51,7 +51,7 @@ class _UserProfileState extends State<_UserProfile> {
         Map<String, dynamic> returnObject = new Map(); 
         returnObject["userSignout"] = (BuildContext context, Map params) =>
             store.dispatch(userSignout(context, params));
-        returnObject["user"] = store.state.homeState.user;         
+        returnObject["user"] = store.state.homeFitHomeState.user;         
         return returnObject;
       },
       builder: (BuildContext context, Map stateObject) {  

@@ -488,14 +488,14 @@ class _MyPlanState extends State<_MyPlan> {
       },
       converter: (Store<AppState> store) {
         Map<String, dynamic> returnObject = new Map();
-        returnObject["user"] = store.state.homeState.user;
+        returnObject["user"] = store.state.homeFitHomeState.user;
         returnObject["getFamilyPlanMembers"] = (BuildContext context, Map params) =>
           store.dispatch(getFamilyPlanMembers(context, params));  
         returnObject["inviteFamilyMember"] = (BuildContext context, Map params) =>
           store.dispatch(inviteFamilyMember(context, params));  
         returnObject["deleteFamilyMember"] = (BuildContext context, Map params) =>
           store.dispatch(deleteFamilyMember(context, params));            
-        returnObject["familyMembers"] = store.state.homeState.familyPlanMemberList;
+        returnObject["familyMembers"] = store.state.homeFitHomeState.familyPlanMemberList;
         returnObject["unSubscribeStripePayment"] = (BuildContext context, Map params) =>
           store.dispatch(unSubscribeStripePayment(context, params));  
         return returnObject;

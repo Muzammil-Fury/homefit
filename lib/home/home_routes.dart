@@ -6,9 +6,9 @@ import 'package:homefit/home/views/plans.dart';
 import 'package:homefit/home/views/my_plan.dart';
 import 'package:homefit/home/views/splash.dart';
 
-var homeRoutes = {
+var homeRoutes = { // change
   '/dashboard': (context) => Dashboard(),
-  '/signin': (context) => SignIn(),
+  '/signin': (context) => SignIn(), //it is present in coachFit
   '/track': (context) => Track(),
   '/plans': (context) => Plans(), 
   '/my_plan': (context) => MyPlan(), 

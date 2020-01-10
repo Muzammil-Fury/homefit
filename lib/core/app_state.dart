@@ -5,29 +5,29 @@ import 'package:homefit/user/user_state.dart';
 
 @immutable
 class AppState {
-  final HomeState homeState;
+  final HomeFitHomeState homeFitHomeState;
   final WorkoutState workoutState;
   final UserState userState;
   
   AppState(
     {
-      HomeState homeState,
+      HomeFitHomeState homeFitHomeState,
       WorkoutState workoutState,
       UserState userState,
     }
   )
-    : homeState = homeState ?? new HomeState(),
+    : homeFitHomeState = homeFitHomeState ?? new HomeFitHomeState(),
       workoutState = workoutState ?? new WorkoutState(),
       userState = userState ?? new UserState();
 
   AppState copyWith(
       {
-        HomeState homeState,
+        HomeFitHomeState homeFitHomeState,
         WorkoutState workoutState,
         UserState userState,
       }) {
     return AppState(
-      homeState: homeState ?? this.homeState,
+      homeFitHomeState: homeFitHomeState ?? this.homeFitHomeState,
       workoutState: workoutState ?? this.workoutState,
       userState: userState ?? this.userState,
     );

@@ -596,7 +596,7 @@ class _SignInState extends State<_SignIn> {
             store.dispatch(verifyEmail(context, params));
         returnObject["clearVerifyEmail"] = () =>
             store.dispatch(ClearVerifyEmailActionCreator());
-        returnObject["emailExists"] = store.state.homeState.userEmailExists;
+        returnObject["emailExists"] = store.state.homeFitHomeState.userEmailExists;
         return returnObject;
       },
       builder: (BuildContext context, Map stateObject) {        

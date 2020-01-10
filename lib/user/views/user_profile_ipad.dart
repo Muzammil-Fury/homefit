@@ -203,8 +203,8 @@ class _UserProfileIpadState extends State<_UserProfileIpad> {
         returnObject["homeCleanup"] = () =>
           store.dispatch(HomeCleanup()
         ); 
-        returnObject["user"] = store.state.homeState.user;
-        returnObject["movementMeterConfiguration"] = store.state.homeState.movementMeterConfiguration;
+        returnObject["user"] = store.state.homeFitHomeState.user;
+        returnObject["movementMeterConfiguration"] = store.state.homeFitHomeState.movementMeterConfiguration;
         if(returnObject["movementMeterConfiguration"]["duration_total"] == 240) {
           _dropdownSelectedValue = "1";
         } else if(returnObject["movementMeterConfiguration"]["duration_total"] == 360) {
